@@ -1,0 +1,18 @@
+function default_ajax_autocomplete(){
+	global $assign_list, $core, $smarty, $clsProduct;
+	$keyword = GET("term","");
+	$arr_json = array();
+	if($keyword!=""){
+		$arrListProduct = $clsProduct->getAll("is_online=1 AND (name LIKE '%$keyword%' || product_code LIKE '%$keyword%')");
+		if(is_array($arrListProduct))
+		foreach($arrListProduct as $k => $v){
+			$arr_json[$k]["label"] = $v["name"];
+			$arr_json[$k]["producturl"] = url_product($v);
+			// $arr_json[$k]["productpictureurl"] = URL_UPLOADS."/".$v["image"];
+			$arr_json[$k]["productpictureurl"] = NVCMS_URL."/img.php?pic=".base64_encode($v[image])."&w=50&h=50&encode=1";
+
+		}
+	}
+	echo json_encode($arr_json);
+	exit();
+}

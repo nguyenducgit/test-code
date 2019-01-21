@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<div class="box-dk-bottom">
+    <div id="box-dk-bottom-click">SẮP RA MẮT CHUNG CƯ VINHOMES<img src="images/icon-close.jpg"></div>
+    <div id="box-dk-bottom-toggle">
+    <P class="des">Nhận trọn bộ mặt bằng và thông tin mở bán ngay khi có</P>
+    <form action="" method="POST" role="form">
+        <input type="text" name="name" placeholder="Họ và tên (*)" required="required">
+        <input type="text" name="phone" placeholder="Số điện thoại (*)" required="required">
+        <input type="text" name="email" placeholder="Email">
+        <button type="submit" class="btn">Đăng ký ngay</button>
+    </form>
+    </div>
+</div>
+
+<script>
+$(document).ready(function(){
+        $("#box-dk-bottom-click").click(function(e) {
+            $('#box-dk-bottom-toggle').toggle();
+        });
+});
+</script>
+
+</body>
+</html>
+
+

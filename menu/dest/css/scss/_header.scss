@@ -1,0 +1,298 @@
+.l-header {
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  &__widgets {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 0;
+  }
+}
+.h-logo {
+  display: block;
+  margin: 23px 0 17px;
+  &__img {
+    height: 44px;
+  }
+}
+.h-toplinks {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  font-family: $open-sans;
+  margin-top: 15px;
+  &__item {
+    display: block;
+    padding: 2px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $gray-9;
+    transition: all .3s;
+    &:hover {
+      color: $green;
+    }
+    & + & {
+      position: relative;
+      &::before {
+        content: '';
+        height: 12px;
+        border-left: 1px dotted $gray-9;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: -6px;
+      }
+    }
+  }
+}
+.h-search {
+  display: flex;
+  width: 117px;
+  margin-top: 14px;
+  &__input {
+    flex: 1 0 0;
+    height: 20px;
+    padding: 0 5px;
+    font-size: 12px;
+    border: 1px solid $border;
+  }
+  &__btn {
+    display: block;
+    width: 28px;
+    height: 20px;
+    background-color: $green;
+    border: 0;
+    color: $white;
+    font-size: 12px;
+    cursor: pointer;
+  }
+}
+.h-menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 0 auto;
+  padding: 0;
+  list-style: none;
+  font-family: $open-sans;
+  &__item {
+    position: relative;
+    margin-right: 30px;
+    &::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 5px;
+      background-color: $green;
+      transform: rotateY(90deg);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: transform .3s;
+    }
+    &.active::after,
+    &:hover::after {
+      transform: rotateY(0);
+    }
+  }
+  &__link {
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: $gray-3;
+    padding: 15px 0;
+    &:hover {
+      color: $gray-3;
+      text-decoration: none;
+    }
+  }
+}
+.h-menu-2,
+.h-menu-3,
+.h-menu-4 {
+  display: none;
+  min-width: 180px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: $white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: absolute;
+  z-index: 100;
+  top: 100%;
+  left: 0;
+  &__item {
+    border-bottom: 1px dashed $border;
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+  &__link {
+    display: block;
+    padding: 6px 10px;
+    color: $gray-3;
+    &:hover {
+      text-decoration: none;
+      color: $gray-3;
+      background-color: $gray-f4;
+    }
+  }
+}
+.h-menu-3,
+.h-menu-4 {
+  top: 0;
+  left: 100%;
+  margin-left: 1px;
+}
+.h-dropdown {
+  position: relative;
+  &:hover > &__menu {
+    display: block;
+  }
+}
+.h-menu-btn,
+.h-menu-close {
+  display: none;
+}
+@media (max-width: 1199px) {
+  .l-header {
+    &__widgets {
+      position: fixed;
+      align-content: flex-start;
+      z-index: 1000;
+      top: 0;
+      left: -100%;
+      width: 300px;
+      height: 100vh;
+      overflow-x: hidden;
+      overflow-y: auto;
+      transition: .3s;
+      background-color: $gray-f4;
+      &.is-show {
+        left: 0;
+      }
+    }
+  }
+  .h-menu-btn {
+    display: inline-block;
+  }
+  .h-menu {
+    order: -1;
+    align-content: flex-start;
+    &__item {
+      width: 100%;
+      margin-right: 0;
+      border-bottom: 1px solid $border;
+      &::after {
+        display: none;
+      }
+    }
+    &__link {
+      padding: 8px 15px;
+    }
+  }
+  .h-menu-2,
+  .h-menu-3,
+  .h-menu-4 {
+    position: static;
+    box-shadow: unset;
+    &__link {
+      padding: 8px 15px;
+    }
+  }
+  .h-menu-2 {
+    background-color: $gray-e;
+    &__link {
+      padding-left: 20px;
+    }
+  }
+  .h-menu-3 {
+    background-color: $gray-d;
+    &__link {
+      padding-left: 25px;
+    }
+  }
+  .h-menu-4 {
+    background-color: $gray-c;
+    &__link {
+      padding-left: 30px;
+    }
+  }
+  .h-dropdown {
+    position: relative;
+    &:hover > &__menu {
+      display: none;
+    }
+    &__toggle {
+      display: inline-block;
+      border-radius: 3px;
+      background-color: rgba(0,0,0,0.2);
+      position: absolute;
+      top: 3px;
+      right: 5px;
+      width: 34px;
+      height: 30px;
+      &::before,
+      &::after {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 2px;
+        border-radius: 1px;
+        background-color: $white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      &::after {
+        width: 2px;
+        height: 15px;
+        transition: all .3s;
+      }
+      &.active::after {
+        transform: translate(-50%, -50%) rotateX(90deg);
+      }
+    }
+  }
+  .h-menu-btn {
+    margin-left: auto;
+    font-size: 30px;
+    color: $green;
+    border: 0;
+    background: 0;
+  }
+  .h-toplinks {
+    justify-content: center;
+  }
+  .h-search {
+    flex: 1 0 0;
+    margin: 15px;
+  }
+  .h-menu-close {
+    display: block;
+    height: 35px;
+    width: 100%;
+    order: -2;
+    background-color: $gray-3;
+    color: $white;
+    border: 0;
+  }
+  .mobile-filter {
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    background-color: $black;
+    opacity: .0;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: left 0s .3s, opacity .3s;
+    &.is-show {
+      left: 0;
+      opacity: .5;
+      transition: left 0s, opacity .3s;
+    }
+  }
+}

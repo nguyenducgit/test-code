@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon addon_id="TodaysBirthdays" title="Today's Birthdays" version_string="1.4" version_id="1" url="" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
+  <admin_navigation/>
+  <admin_permissions/>
+  <admin_style_properties/>
+  <admin_templates/>
+  <admin_template_modifications/>
+  <code_events/>
+  <code_event_listeners>
+    <listener event_id="load_class_controller" execute_order="10" callback_class="Andy_TodaysBirthdays_Listener" callback_method="Forum" active="1" hint="XenForo_ControllerPublic_Forum" description="Today's Birthdays load_class_controller"/>
+  </code_event_listeners>
+  <cron/>
+  <email_templates/>
+  <email_template_modifications/>
+  <optiongroups>
+    <group group_id="TodaysBirthdays" display_order="4000" debug_only="0"/>
+    <option option_id="todaysBirthdaysCutoffDays" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>365</default_value>
+      <edit_format_params></edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="TodaysBirthdays" display_order="1"/>
+    </option>
+  </optiongroups>
+  <permissions>
+    <permission_groups/>
+    <permissions/>
+    <interface_groups/>
+  </permissions>
+  <phrases>
+    <phrase title="option_group_TodaysBirthdays" version_id="1" version_string="1.0"><![CDATA[Today's Birthdays]]></phrase>
+    <phrase title="option_group_TodaysBirthdays_description" version_id="1" version_string="1.0"><![CDATA[Options here control the Today's Birthdays add-on.]]></phrase>
+    <phrase title="option_todaysBirthdaysCutoffDays" version_id="1" version_string="1.0"><![CDATA[Cutoff Days]]></phrase>
+    <phrase title="option_todaysBirthdaysCutoffDays_explain" version_id="1" version_string="1.0"><![CDATA[Members with last activity greater than X days will not have their birthdays shown.]]></phrase>
+  </phrases>
+  <route_prefixes/>
+  <style_properties/>
+  <templates>
+    <template title="andy_todaysbirthdays" version_id="1" version_string="1.3"><![CDATA[<xen:if is="{$birthdays}">
+    <xen:require css="andy_todaysbirthdays.css" />
+    <div class="section">
+        <div class="secondaryContent avatarHeap">
+            <h3>{xen:phrase todays_birthdays}</h3>
+            <ol>
+            <xen:foreach loop="$birthdays" value="$user">
+                <li><xen:avatar user="$user" size="s" img="true" text="{$user.username}" class="todaysbirthdays_avatar Tooltip" title="{$user.username}" /></li>
+            </xen:foreach>
+            </ol>
+        </div>
+    </div>
+</xen:if>]]></template>
+    <template title="andy_todaysbirthdays.css" version_id="1" version_string="1.3"><![CDATA[.todaysbirthdays_avatar img {
+    display: block;
+    width: 36px;
+    height: 36px;
+}]]></template>
+  </templates>
+  <public_template_modifications/>
+  <bb_code_media_sites/>
+  <bb_codes/>
+</addon>

@@ -1,0 +1,86 @@
+.pagenews.wrap_bread{margin:30px auto 10px}
+.newsleft{float:left; position:relative; overflow:hidden; width:660px}
+.lefttopbar{display:block; position:relative; height:1px; border-top:1px dotted #252525; margin:30px 0 22px;}
+.lefttopbar h1{float:left; background:white; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:16px; color:#252525; text-transform:uppercase; margin-top:-12px; padding:0 12px 0 0}
+.newslist{display:block; overflow:hidden; position:relative}
+.newslist a{float:left; width:205px; height:266px; margin-bottom:30px; overflow:hidden}
+.newsleft .newslist a{height:272px;}
+.newslist a img{display:block; margin:0 auto 12px; max-width:205px; max-height:155px;}
+.newslist a h3{display:block; line-height:1.3em; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:14px; color:#252525}
+.newslist a:hover h3{color:#ed1c24}
+.newslist a figure{display:block; font-size:14px; color:#252525; margin-top:12px;}
+.newslist a:nth-child(3n+2){margin:0 22px 30px}
+
+.newsright{float:right; width:300px; overflow:hidden; position:relative; margin-left:20px}
+
+.righttopbar{display:block; position:relative; height:23px; border-top:1px dotted #252525; border-bottom:1px solid #b7b7b7; margin:30px 0 0;}
+
+.righttopbar:after, .righttopbar:before{top:100%; left:48.5%; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+
+.righttopbar:after{border-color: rgba(255, 255, 255, 0);border-left:10px solid transparent;border-right:10px solid transparent;border-top:10px solid #b7b7b7; margin-left:-10px; position:absolute; z-index:1}
+.righttopbar:before {border-color: rgba(218, 218, 218, 0); border-left:9px solid transparent;border-right:9px solid transparent;border-top:9px solid #ffffff; margin-left:-9px; position:absolute; z-index:9;}
+
+.righttopbar h4{display:block; background:white; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;; font-size:26px; font-weight: normal; color:#252525; text-transform:uppercase; padding:6px 0; margin:-24px auto 0; width:270px; text-align:center;}
+
+.newscate{display:block; position:relative; overflow:hidden;}
+.newscate a{display:block; height:39px; border-bottom:1px dotted #252525;}
+.newscate a h3{font-size:14px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; color:#252525; text-transform:uppercase; padding:11px}
+.newscate a:hover h3{color:#ed1c24;}
+.newscate a.actnews h3{color:#ed1c24; background:#ededed}
+
+.advertising{display:block; overflow:hidden; margin-bottom:16px;}
+.advertising a{display:block; overflow:hidden;margin-top:16px;}
+.advertising a img{display:block; margin:auto; max-width:300px}
+
+.leftcontent{float:left; position:relative; overflow:hidden; width:660px}
+.leftcontent h1{display:block; font-size:18px; font-family:'ProximaNova-bold'; color:#252525; line-height:1.3em; padding:18px 0 0 12px;}
+
+.wrap_social{display:block; margin:12px 0; padding:4px 0; border-bottom:1px dotted #252525; border-top:1px dotted #252525;height: 30px;}
+.likearticle{float:left; margin-top:3px;}
+.likearticle img{margin-top:0 !important}
+
+#newsdetail .listshare{float:right; overflow:hidden}
+#newsdetail .listshare span{float:left; font-size:14px; color:#252525; margin-top:7px}
+#newsdetail .listshare a{float:left; margin-left:20px}
+.icon-fb:hover{background-position:0 -90px;}
+.icon-tw{background-position:-120px -60px;}
+.icon-tw:hover{background-position:-120px -90px;}
+.icon-gg{background-position:-150px -60px;}
+.icon-gg:hover{background-position:-150px -90px;}
+.icon-em{background-position:-180px -60px;}
+.icon-em:hover{background-position:-180px -90px;}
+
+.wrap_cont{display:block; margin:16px 0; position:relative;}
+.wrap_cont article{float:left; width:460px;}
+.wrap_cont article figure{display:block; font-size:14px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; line-height:18px; color:#252525; text-align:justify}
+
+.wrap_cont article p{font-size:14px; color:#252525; line-height:22px; text-align:justify; margin-top:20px;}
+
+.wrap_cont article img{display:block; margin:20px auto 0; max-width:460px;}
+.wrap_cont article em{display:block; padding:6px; text-align:center; font-size:12px; color:#252525; background:#f8f8f8; font-style:normal}
+
+.wrap_tagnews{display:block; overflow:hidden; margin:8px 0; padding:8px}
+
+.wrap_tagnews span{float:left; font-size:14px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; color:#252525; margin-right:12px; text-transform:uppercase}
+.wrap_tagnews a{font-size:13px; font-family:'ProximaNova-SemiboldIt'; color:#a1a1a1;}
+.wrap_tagnews a:hover{text-decoration:underline}
+
+.newsrelate{float:right; overflow:hidden; width:180px; position:relative; right:0}
+.newsrelate h4{display:block; padding:0 6px 6px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:14px; color:#ed1c24; text-transform:uppercase}
+.newsrelate a{display:block; overflow:hidden; border-top:1px dotted #b7b7b7}
+.newsrelate a h3{display:block; line-height:1.3em; font-family:'ProximaNova-RegularIt'; font-size:14px; color:#252525; padding:8px 6px}
+.fixedrelate{position:fixed; top:0;}
+.latesttopbar{display:block; position:relative; height:1px; border-top:1px dotted #252525; margin:30px 0 22px;}
+.latesttopbar h1{float:left; background:white; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:16px; color:#ed1c24; text-transform:uppercase; margin-top:-12px; padding:0 12px 0 0}
+.newslatest{display:block; overflow:hidden; position:relative}
+.newslatest a{float:left; width:205px; height:266px; margin-bottom:30px; overflow:hidden}
+.newslatest a img{display:block; margin:0 auto 12px; max-width:205px; max-height:155px;}
+.newslatest a h3{display:block; line-height:1.3em; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:14px; color:#252525}
+.newslatest a:hover h3{color:#ed1c24}
+.newslatest a figure{display:block; font-size:14px; color:#252525; margin-top:12px;}
+.newslatest a:nth-child(3n+2){margin:0 22px 30px}
+
+
+
+
+

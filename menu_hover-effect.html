@@ -1,0 +1,46 @@
+<ul id="navigation" class="menu">
+    <li class="menu-item-home"><a href="#">Trang chủ</a></li>
+    <li class="menu-item"><a href="#">Khách sạn</a>
+        <ul class="sub-menu">
+            <li class="menu-item"><a href="#">Khách sạn bãi tắm A</a></li>
+            <li class="menu-item"><a href="#">Khách sạn bãi tắm B</a></li>
+            <li class="menu-item"><a href="#">Khách sạn bãi tắm C</a></li>
+            <li class="menu-item"><a href="#">Khách sạn bãi tắm D</a></li>
+            <li class="menu-item"><a href="#">Khách sạn giá rẻ</a></li>
+            <li class="menu-item"><a href="#">Khách sạn mặt biển</a></li>
+        </ul>
+    </li>
+</ul>
+
+<style type="text/css">
+
+ul#navigation li:hover > .sub-menu {
+    display: block;
+    visibility: visible;
+    z-index: 9999;
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transition: transform 0.3s ease, opacity 0.2s ease .1s;
+    -webkit-transition: -webkit-transform 0.3s ease, opacity 0.2s ease 0.1s;
+}
+ul#navigation li .sub-menu {
+    background: #fff;
+    min-width: 230px;
+    opacity: 0;
+    padding: 0;
+    margin: 0px;
+    position: absolute;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+    transition: transform 0.5s ease, opacity 0.2s ease;
+    -webkit-transition: -webkit-transform 0.5s ease, opacity 0.2s;
+    text-align: left;
+    border-top: 1px solid #fff;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+</style>

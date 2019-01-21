@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Khảo sát nhanh - nhận quà ngay</title>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div class="container">
+            <div class="main-khaosat">
+                <div class="wizard-container">
+                    <div class="wizard-card" data-color="orange" id="wizardProfile">
+                        <form id="form" target="_self" onsubmit="" action="" method="POST">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="step1">
+                                    <h3 class="name-question">Câu 1: Lý do nào sau đây khiến bạn e ngại/ không muốn uống trà sữa</h3>
+                                    <p id="errorstep1"></p>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Sợ tăng cân" name="entry.252619317">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Sợ tăng cân</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Khẩu vị không phù hợp/uống không quen" name="entry.252619317">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Khẩu vị không phù hợp/uống không quen</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Giá cao" name="entry.252619317">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Giá cao</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Không tiện đường" name="entry.252619317">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Không tiện đường</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Dịch vụ không tốt" name="entry.252619317">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Dịch vụ không tốt</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Không tốt cho sức khỏe ( lo lắng vấn đề vệ sinh, xuất xứ nguyên liệu ...)" name="entry.252619317">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Không tốt cho sức khỏe ( lo lắng vấn đề vệ sinh, xuất xứ nguyên liệu ...)</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Không phù hợp với lứa tuổi" name="entry.252619317">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Không phù hợp với lứa tuổi</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Tôi vẫn uống trà sữa thường xuyên, tôi không e ngại" name="entry.252619317" id="special_checkboxes">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Tôi vẫn uống trà sữa thường xuyên, tôi không e ngại</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Ý kiến khác" name="entry.252619317">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Ý kiến khác</span>
+                                        <input type="text" name="entry.252619317" value="" placeholder="Để lại ý kiến khác của bạn" class="othercomment">
+                                    </label>
+                                    <!-- <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Ý kiến khác" name="entry.252619317" id="othercomment_checkbox">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description" style="float: none;">Ý kiến khác <input type="text" name="entry.252619317" value="" placeholder="Để lại ý kiến khác của bạn" class="othercomment" id="othercomment_input" onblur="OtherComment();"></span>
+                                    </label> -->
+                                </div>
+                                <div class="tab-pane" id="step2">
+                                    <h3 class="name-question">Câu 2: Lý do bạn chọn uống trà sữa là gì? </h3>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Khẩu vị ngon, phù hợp" name="entry.805241773">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Khẩu vị ngon, phù hợp</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Giá thành hợp lý" name="entry.805241773">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Giá thành hợp lý</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Tiện đường mua, quán gần nhà hoặc chỗ làm" name="entry.805241773">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Tiện đường mua, quán gần nhà hoặc chỗ làm</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Dịch vụ tốt, nhân viên thân thiện" name="entry.805241773">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Dịch vụ tốt, nhân viên thân thiện</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Nhiều ưu đãi, khuyến mãi hấp dẫn" name="entry.805241773">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Nhiều ưu đãi, khuyến mãi hấp dẫn</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Thương hiệu uy tín" name="entry.805241773">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Thương hiệu uy tín</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Bạn bè, người quen hay uống ở đó" name="entry.805241773">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Bạn bè, người quen hay uống ở đó</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Chất lượng sản phẩm" name="entry.805241773">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Chất lượng sản phẩm</span>
+                                    </label>
+                                </div>
+                                <div class="tab-pane" id="step3">
+                                    <h3 class="name-question">Câu 2: Bạn sẽ đề cao tiêu chí nào nhất nếu uống trà sữa?</h3>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Không quá ngọt và béo" name="entry.2075030219">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Không quá ngọt và béo</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Vị ngon phù hợp với sở thích" name="entry.2075030219">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Vị ngon phù hợp với sở thích</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Giá thành hợp lý" name="entry.2075030219">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Giá thành hợp lý</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Tiện đường, gần nhà hoặc gần chỗ làm" name="entry.2075030219">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Tiện đường, gần nhà hoặc gần chỗ làm</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Dịch vụ tốt, nhân viên thân thiện" name="entry.2075030219">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Dịch vụ tốt, nhân viên thân thiện</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Chất lượng đảm bảo, nguồn gốc xuất xứ rõ ràng, sử dụng hoa quả tươi tốt cho sức khỏe" name="entry.2075030219">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Chất lượng đảm bảo, nguồn gốc xuất xứ rõ ràng, sử dụng hoa quả tươi tốt cho sức khỏe</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Bạn bè, người quen vẫn uống ở đây" name="entry.2075030219">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Bạn bè, người quen vẫn uống ở đây</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" value="Mục khác:" name="entry.2075030219">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Mục khác:</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="wizard-footer height-wizard">
+                                <div class="clearfix"></div>
+                                <div class="footer-from">
+                                    <div class="hr"></div>
+                                    <p class="sapo">Cảm ơn bạn đã dành thời gian hoàn thành khảo sát, vui lòng điền Email nếu bạn muốn nhận quà từ Xinshiqi hoặc bỏ qua nếu bạn chỉ tham gia làm khảo sát!</p>
+                                    <input type="email" name="entry.1143287649" placeholder="Nhập email của bạn" class="sub-email">
+                                    <button type='submit' class='btn-submitForm btn btn-finish btn-fill btn-warning btn-wd btn-sm' name='finish' value='Gửi'>Gửi</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    function postToGoogle() {
+        var adata = $("#form").serialize();
+        $.ajax({
+            url: "https://docs.google.com/forms/d/e/1FAIpQLSc95Oi0ZoJ_hJTh2yO4i1OYieX6Ert0WRKF587UiEJlj11nkA/formResponse",
+            data: adata,
+            type: "POST",
+            dataType: "xml",
+            statusCode: {
+                0: function() {
+                    window.location.replace("success.html");
+                },
+                200: function() {
+                    window.location.replace("success.html");
+                }
+            }
+        });
+    }
+
+    $(document).ready(function() {
+        $('#form').submit(function() {
+            postToGoogle();
+            return false;
+        });
+    });
+    </script>
+
+    <style type="text/css">
+        label{
+            display: block;
+        }
+    </style>
+</body>
+
+</html>

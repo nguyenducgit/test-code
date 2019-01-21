@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="vn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="hotline">
+            <img class="faa-wrench animated" src="http://www.cfyc.com.vn/images_server/themes/celebration/img/home/phone.png">
+            <div class="hotline-no">
+                <p>08.73.075.777</p>
+                <p>gọi để nhận tư vấn miễn phí</p>
+            </div>
+        </div>
+    </div>
+    <style type="text/css">
+        @-webkit-keyframes wrench {
+            0% {
+                -webkit-transform: rotate(-12deg);
+                transform: rotate(-12deg)
+            }
+            8% {
+                -webkit-transform: rotate(12deg);
+                transform: rotate(12deg)
+            }
+            10%,
+            28%,
+            30%,
+            48%,
+            50%,
+            68% {
+                -webkit-transform: rotate(24deg);
+                transform: rotate(24deg)
+            }
+            18%,
+            20%,
+            38%,
+            40%,
+            58%,
+            60% {
+                -webkit-transform: rotate(-24deg);
+                transform: rotate(-24deg)
+            }
+            100%,
+            75% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0)
+            }
+        }
+
+        @keyframes wrench {
+            0% {
+                -webkit-transform: rotate(-12deg);
+                -ms-transform: rotate(-12deg);
+                transform: rotate(-12deg)
+            }
+            8% {
+                -webkit-transform: rotate(12deg);
+                -ms-transform: rotate(12deg);
+                transform: rotate(12deg)
+            }
+            10%,
+            28%,
+            30%,
+            48%,
+            50%,
+            68% {
+                -webkit-transform: rotate(24deg);
+                -ms-transform: rotate(24deg);
+                transform: rotate(24deg)
+            }
+            18%,
+            20%,
+            38%,
+            40%,
+            58%,
+            60% {
+                -webkit-transform: rotate(-24deg);
+                -ms-transform: rotate(-24deg);
+                transform: rotate(-24deg)
+            }
+            100%,
+            75% {
+                -webkit-transform: rotate(0);
+                -ms-transform: rotate(0);
+                transform: rotate(0)
+            }
+        }
+
+        .faa-parent.animated-hover:hover>.faa-wrench,
+        .faa-wrench.animated,
+        .faa-wrench.animated-hover:hover {
+            -webkit-animation: wrench 2.5s ease infinite;
+            animation: wrench 2.5s ease infinite;
+            transform-origin-x: 90%;
+            transform-origin-y: 35%;
+            transform-origin-z: initial
+        }
+
+        .faa-parent.animated-hover:hover>.faa-wrench.faa-fast,
+        .faa-wrench.animated-hover.faa-fast:hover,
+        .faa-wrench.animated.faa-fast {
+            -webkit-animation: wrench 1.2s ease infinite;
+            animation: wrench 1.2s ease infinite
+        }
+
+        .faa-parent.animated-hover:hover>.faa-wrench.faa-slow,
+        .faa-wrench.animated-hover.faa-slow:hover,
+        .faa-wrench.animated.faa-slow {
+            -webkit-animation: wrench 3.7s ease infinite;
+            animation: wrench 3.7s ease infinite
+        }
+
+        .hotline {
+            background: url(http://www.cfyc.com.vn/images_server/themes/celebration/img/home/hotline.png);
+            background-size: cover;
+            position: fixed;
+            right: 0;
+            z-index: 111;
+            height: 100px;
+            width: 300px;
+            color: #fff;
+            padding: 30px 0 0 45px;
+            top: 60px
+        }
+
+        .hotline img {
+            float: left;
+            margin: 11px 18px 0 3px
+        }
+
+        .hotline p {
+            font-size: 11px;
+            font-family: utm_avoregular, sans-serif;
+            text-transform: uppercase;
+            margin: 0
+        }
+
+        .hotline p:first-child {
+            font-family: utm_avobold, sans-serif;
+            font-size: 14px
+        }
+
+        .hotline .hotline-no {
+            float: left
+        }
+
+        .hotline-mobile {
+            background: url(http://www.cfyc.com.vn/images_server/themes/celebration/img/home/hotline-mobile.png);
+            background-size: cover;
+            position: fixed;
+            z-index: 1111;
+            height: 80px;
+            width: 80px;
+            padding-top: 28px;
+            bottom: 20px
+        }
+    </style>
+</body>
+
+</html>

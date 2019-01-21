@@ -1,0 +1,81 @@
+*{margin:0; padding:0}
+img{border:0}
+a{text-decoration:none}
+ul,ol{list-style:none}
+.clr{clear:both}
+body,input, button, option, textarea, select, label, legend, h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{outline:none; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:normal; font-style:normal;}
+.wrap_popup_cart [class^="icon-"], .wrap_popup_cart [class*="icon-"]{
+	background-image:url(../../../../images/store/vascara/desktop/bgsprite.png);
+	background-repeat:no-repeat; display:inline-block; height:30px; width:30px;
+	line-height:30px; vertical-align:middle;
+}
+
+.wrap_popup_cart .icon-closepopup{background-position:-265px -30px; width:15px; height:15px;}
+.wrap_popup_cart{display:block; margin:auto; max-width:800px; width:100%; padding:20px 20px 20px 40px; position:relative; background:white; /*border:1px solid #b7b7b7*/}
+.wrap_popup_cart iframe{width:100%; height:100%;}
+.wrap_popup_cart .close{position:absolute; top:20px; right:20px; width:15px; height:15px}
+.wrap_popup_cart figure{display:block; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:16px; color:#ed1c24; text-transform:uppercase;}
+.wrap_popup_cart figure span{font-size:14px; font-weight: normal; text-transform:none; color:#252525; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;}
+.wrap_popup_cart figure label{display:block; width:30px; height:1px; background:#ed1c24; margin-top:3px}
+
+.wrap_popup_cart .bartable{display:table; *display:block; *float:none; overflow:hidden; width:100%; margin-top:20px; border-bottom:1px solid #b7b7b7}
+.wrap_popup_cart .bartable li{display:table-cell; *float:left; padding:8px; font-size:12px; color:#a1a1a1}
+.wrap_popup_cart .bartable li:first-child{width:45%;}
+.wrap_popup_cart .bartable li:first-child + li{width:30%;}
+.wrap_popup_cart .bartable li:last-child{width:25%;}
+
+.wrap_popup_cart .listcart{display:block; overflow-x:hidden; overflow-y:auto; position:relative;}
+.wrap_popup_cart .listcart li{display:table; *display:block; *float:none; width:100%}
+.wrap_popup_cart .listcart li aside{display:table-cell; *float:left; padding:12px 0; border-bottom:1px solid #b7b7b7; vertical-align:middle}
+.wrap_popup_cart .listcart li aside.col1{width:40%}
+.wrap_popup_cart .listcart li aside.col1 img{float:left; width:50px; height:50px; margin:12px}
+.wrap_popup_cart .listcart li aside.col1 h3{display:block; margin-top:10px; font-weight:700; color:#252525; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:14px; line-height:1.3em}
+.wrap_popup_cart .listcart li aside.col1 span{display:block; margin-top:10px; color:#252525; font-size:14px; line-height:1.3em}
+
+.wrap_popup_cart .listcart li aside.col2{width:25%}
+.wrap_popup_cart .listcart li aside.col2 .select{display:block; width:150px; padding:6px 8px; border:1px solid #b7b7b7; color:#252525; font-size:14px; margin-bottom:10px;}
+
+.wrap_popup_cart .listcart li aside.col3{width:25%}
+.wrap_popup_cart .listcart li aside.col3 label{display:block; padding:2px 8px; color:#252525; font-size:14px; margin-bottom:10px; overflow:hidden}
+.wrap_popup_cart .listcart li aside.col3 label span{float:left;}
+.wrap_popup_cart .listcart li aside.col3 label .select{float:right; width:60px; padding:5px 8px; border:1px solid #b7b7b7; color:#252525; font-size:14px;}
+.wrap_popup_cart .listcart li aside.col3 label strong{float:right; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; margin-top: 10px;}
+.wrap_popup_cart .listcart li aside.col3 label .padd{margin-top:5px}
+
+.wrap_popup_cart .listcart li aside.coldel{width: 10%; text-align: center;font-size: 13px;}
+.wrap_popup_cart .listcart li aside.coldel a{color: #a1a1a1;}
+
+.wrap_popup_cart .listcart::-webkit-scrollbar{width:4px;} 
+.wrap_popup_cart .listcart::-webkit-scrollbar-track{background:#fff;}
+.wrap_popup_cart .listcart::-webkit-scrollbar-thumb{background:#666;}
+.wrap_popup_cart .listcart::-webkit-scrollbar-thumb:window-inactive{background:#111;}
+
+.wrap_popup_cart .rowcouptotal{display:block; overflow:hidden; border-top:1px solid #b7b7b7; padding:12px 0; font-size:14px; color:#252525}
+
+.wrap_popup_cart .rowcouptotal .total{float:right; overflow:hidden; width:300px}
+.wrap_popup_cart .rowcouptotal .total label{display:block; padding:0 20px 0 0; color:#252525; font-size:14px; margin-bottom:5px; overflow:hidden}
+.wrap_popup_cart .rowcouptotal .total label span{float:left;}
+.wrap_popup_cart .rowcouptotal .total label strong{float:right; text-transform:uppercase;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold;}
+.wrap_popup_cart .rowcouptotal .total label.padd{padding:10px 20px 0 0; border-top:1px solid #b7b7b7;}
+.wrap_popup_cart .rowcouptotal .total label.padd span{text-transform:uppercase; padding-top:5px}
+.wrap_popup_cart .rowcouptotal .total label.padd strong{color:#ed1c24; font-size:18px;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold;}
+
+.wrap_popup_cart .rowcouptotal .coupon{float:right; width:300px; overflow:hidden; margin-right:60px}
+.wrap_popup_cart .rowcouptotal .coupon p{display:block; padding:6px 0; clear:both;}
+.wrap_popup_cart .rowcouptotal .coupon .input{float:left; padding:6px 8px; border:1px solid #b7b7b7; margin-right:10px}
+.wrap_popup_cart .rowcouptotal .coupon .btnapp{float:left; cursor:pointer; height:30px; padding:6px 16px; text-transform:uppercase; color:white; border:1px solid #252525; background:#252525}
+
+.wrap_popup_cart .wrap_paynext{display:block; overflow:hidden; border-top:1px solid #b7b7b7; padding:12px 0 0;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:14px; color:#252525}
+
+
+.wrap_popup_cart .wrap_paynext a{float:right; padding:10px 8px 0; color:#252525; margin-right:60px}
+.wrap_popup_cart .wrap_paynext a span{font-size:26px; float:left; margin:-9px 8px 0 0; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;}
+.wrap_popup_cart .wrap_paynext .button{float:right; margin: 0; padding:10px 22px; background:#ed1c24; color:white; text-transform:uppercase; border:0; cursor:pointer;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:14px;}
+.wrap_popup_cart .wrap_paynext .button:hover{cursor:pointer}
+#sb-body{
+	border-radius: 0 !important;
+}
+#sb-nav-close{
+	top: 40px;
+	right: 17px !important
+}

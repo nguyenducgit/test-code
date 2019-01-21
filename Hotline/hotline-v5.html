@@ -1,0 +1,310 @@
+<div class="float-icon">
+    <ul>
+        <li class="hotline_float_icon">
+            <i class="fa fa-phone animated infinite tada"></i>
+            <span>Hotline: 0917 000 914</span>
+        </li>
+        <li class="hotline_float_icon">
+            <i class="fa fa-phone animated infinite tada"></i>
+            <span>Hotline: 0964 003 668</span>
+        </li>
+        <li class="content_product_daily">
+            <i class="fa fa-wpforms"></i><span>Đăng ký đại lý</span>
+        </li>
+        <li>
+            <i class="fa fa-envelope-o"></i>
+            <a href="lien-he.html"><span>Đăng ký gọi lại</span></a>
+        </li>
+        <li>
+            <i class="fa fa-map-o"></i>
+            <a data-fancybox data-caption="Công Ty HDradio - 77 Đại Cồ Việt, Hà Nội" href="#">
+                <span>Chi nhánh chính</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="float-icon-mobile">
+    <ul>
+        <li class="hotline_float_icon  animated infinite tada">
+            <a href="#" class="show_popup_hotline">
+                    <i class="fa fa-phone"></i>
+                    <span>Gọi Ngay</span>
+                </a>
+        </li>
+        <!-- <li class="content_product_daily bg_color_2">
+            <i class="fa fa-wpforms"></i><span>Đăng ký đại lý</span>
+        </li> -->
+    </ul>
+</div>
+<style type="text/css" media="screen">
+body{
+    background: #f1f1f1;
+}
+.float-icon {
+    display: block;
+    width: 40px;
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    z-index: 111;
+}
+
+.float-icon ul {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.float-icon ul li {
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.float-icon ul li i {
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 36px;
+    background-color: #ff6a00;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    border: 2px solid #ffffff;
+}
+
+.float-icon ul li span {
+    display: inline-block;
+    padding: 0 0px;
+    background-color: #ff6a00;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    height: 40px;
+    line-height: 36px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    z-index: 0;
+    width: 0;
+    overflow: hidden;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background-color: #ff6a00;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+}
+
+.float-icon ul li:hover span {
+    width: 190px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.float-icon ul li i {
+    background-color: #6bbaeb;
+}
+
+.float-icon ul li span {
+    background-color: #6bbaeb;
+}
+
+.float-icon ul li:nth-of-type(1) i {
+    background-color: #ed1c24;
+}
+
+.float-icon ul li:nth-of-type(1) span {
+    background-color: #ed1c24;
+}
+
+.float-icon ul li:nth-of-type(2) i {
+    background-color: #ef6040;
+}
+
+.float-icon ul li:nth-of-type(2) span {
+    background-color: #ef6040;
+}
+
+.float-icon ul li:nth-of-type(3) i {
+    background-color: #f6911d;
+}
+
+.float-icon ul li:nth-of-type(3) span {
+    background-color: #f6911d;
+}
+
+.float-icon ul li:nth-of-type(4) i {
+    background-color: #ffc50f;
+}
+
+.float-icon ul li:nth-of-type(4) span {
+    background-color: #ffc50f;
+}
+
+.float-icon-mobile {
+    display: none;
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 111;
+}
+
+.float-icon-mobile ul {
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    padding-left: 0px;
+}
+
+.float-icon-mobile ul::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    clear: both;
+}
+
+.float-icon-mobile ul li.content_product_daily {
+    margin-bottom: 0;
+}
+
+.float-icon-mobile ul li {
+    display: block;
+    width: 100px;
+    float: left;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ff6a00;
+    border-radius: 20px;
+}
+
+.float-icon-mobile ul li a {
+    display: block;
+    width: 100%;
+    color: #ffffff;
+}
+
+.float-icon-mobile ul li.bg_color_1 {
+    -webkit-animation: bg_color_1 2s infinite;
+    animation: bg_color_1 2s infinite;
+}
+
+.float-icon-mobile ul li.bg_color_2 {
+    -webkit-animation: bg_color_2 2s infinite;
+    animation: bg_color_2 2s infinite;
+}
+
+.float-icon-mobile ul li i {
+    margin-right: 5px;
+}
+
+@-webkit-keyframes bg_color_1 {
+    0% {
+        background-color: #ed1c24;
+    }
+    50% {
+        background-color: #37b272;
+    }
+    100% {
+        background-color: #ed1c24;
+    }
+}
+
+@keyframes bg_color_1 {
+    0% {
+        background-color: #ed1c24;
+    }
+    50% {
+        background-color: #37b272;
+    }
+    100% {
+        background-color: #ed1c24;
+    }
+}
+
+@-webkit-keyframes bg_color_2 {
+    0% {
+        background-color: #37b272;
+    }
+    50% {
+        background-color: #ed1c24;
+    }
+    100% {
+        background-color: #37b272;
+    }
+}
+
+@keyframes bg_color_2 {
+    0% {
+        background-color: #37b272;
+    }
+    50% {
+        background-color: #ed1c24;
+    }
+    100% {
+        background-color: #37b272;
+    }
+}
+
+@media (max-width: 800px) {
+    .float-icon {
+        display: none;
+    }
+    .float-icon-mobile {
+        display: block;
+    }
+}
+
+.hotline_popup {
+    display: none;
+    width: 400px;
+    max-width: 90%;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.hotline_popup h5 {
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff6a00;
+}
+
+.hotline_popup a {
+    color: #ff0000;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.hotline_popup a span {
+    font-weight: normal;
+}
+
+.hotline_popup a:hove,
+.hotline_popup a:active {
+    outline: none;
+}
+</style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">

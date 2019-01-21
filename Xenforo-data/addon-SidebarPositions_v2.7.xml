@@ -1,0 +1,1547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon addon_id="SidebarPositions" title="Sidebar Positions" version_string="2.7" version_id="1" url="" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
+  <admin_navigation/>
+  <admin_permissions/>
+  <admin_style_properties/>
+  <admin_templates/>
+  <admin_template_modifications/>
+  <code_events/>
+  <code_event_listeners/>
+  <cron/>
+  <email_templates/>
+  <email_template_modifications/>
+  <optiongroups>
+    <group group_id="SidebarPositions" display_order="4000" debug_only="0"/>
+    <option option_id="sidebarPositionsBanner" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="1"/>
+    </option>
+    <option option_id="sidebarPositionsCalendarEventsToday" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="2"/>
+    </option>
+    <option option_id="sidebarPositionsCalendarEventsTomorrow" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="3"/>
+    </option>
+    <option option_id="sidebarPositionsCalendarEventsUpcoming" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="4"/>
+    </option>
+    <option option_id="sidebarPositionsCountdown" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="5"/>
+    </option>
+    <option option_id="sidebarPositionsForumStatistics" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="16"/>
+    </option>
+    <option option_id="sidebarPositionsMembersOnline" edit_format="spinbox" data_type="string" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="6"/>
+    </option>
+    <option option_id="sidebarPositionsMembersOnlineNow" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="17"/>
+    </option>
+    <option option_id="sidebarPositionsMostLikes" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="7"/>
+    </option>
+    <option option_id="sidebarPositionsMostPosts" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="8"/>
+    </option>
+    <option option_id="sidebarPositionsNewPosts" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="18"/>
+    </option>
+    <option option_id="sidebarPositionsNewProfilePosts" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="19"/>
+    </option>
+    <option option_id="sidebarPositionsNewResources" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="20"/>
+    </option>
+    <option option_id="sidebarPositionsShareThisPage" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="21"/>
+    </option>
+    <option option_id="sidebarPositionsSidebarExtraFour" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="12"/>
+    </option>
+    <option option_id="sidebarPositionsSidebarExtraOne" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="9"/>
+    </option>
+    <option option_id="sidebarPositionsSidebarExtraThree" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="11"/>
+    </option>
+    <option option_id="sidebarPositionsSidebarExtraTwo" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="10"/>
+    </option>
+    <option option_id="sidebarPositionsSidebarNotices" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="13"/>
+    </option>
+    <option option_id="sidebarPositionsStaffOnlineNow" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="22"/>
+    </option>
+    <option option_id="sidebarPositionsStatistics" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="14"/>
+    </option>
+    <option option_id="sidebarPositionsTodaysBirthdays" edit_format="spinbox" data_type="numeric" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params>min=0
+max=16</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="SidebarPositions" display_order="15"/>
+    </option>
+  </optiongroups>
+  <permissions>
+    <permission_groups/>
+    <permissions/>
+    <interface_groups/>
+  </permissions>
+  <phrases>
+    <phrase title="option_group_SidebarPositions" version_id="1" version_string="1.0"><![CDATA[Sidebar Positions]]></phrase>
+    <phrase title="option_group_SidebarPositions_description" version_id="1" version_string="1.0"><![CDATA[Options here control the Sidebar Positions add-on.]]></phrase>
+    <phrase title="option_sidebarPositionsBanner" version_id="1" version_string="2.4"><![CDATA[Banner]]></phrase>
+    <phrase title="option_sidebarPositionsBanner_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the Banner add-on.]]></phrase>
+    <phrase title="option_sidebarPositionsCalendarEventsToday" version_id="1" version_string="2.4"><![CDATA[Calendar Events Today]]></phrase>
+    <phrase title="option_sidebarPositionsCalendarEventsToday_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the Calendar add-on.]]></phrase>
+    <phrase title="option_sidebarPositionsCalendarEventsTomorrow" version_id="1" version_string="2.4"><![CDATA[Calendar Events Tomorrow]]></phrase>
+    <phrase title="option_sidebarPositionsCalendarEventsTomorrow_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the Calendar add-on.]]></phrase>
+    <phrase title="option_sidebarPositionsCalendarEventsUpcoming" version_id="1" version_string="2.4"><![CDATA[Calendar Events Upcoming]]></phrase>
+    <phrase title="option_sidebarPositionsCalendarEventsUpcoming_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the Calendar add-on.]]></phrase>
+    <phrase title="option_sidebarPositionsCountdown" version_id="1" version_string="2.4"><![CDATA[Countdown]]></phrase>
+    <phrase title="option_sidebarPositionsCountdown_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the Countdown add-on.]]></phrase>
+    <phrase title="option_sidebarPositionsForumStatistics" version_id="1" version_string="2.4"><![CDATA[Forum Statistics*]]></phrase>
+    <phrase title="option_sidebarPositionsForumStatistics_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the XenForo Forum Statistics block.]]></phrase>
+    <phrase title="option_sidebarPositionsMembersOnline" version_id="1" version_string="2.4"><![CDATA[Members Online]]></phrase>
+    <phrase title="option_sidebarPositionsMembersOnlineNow" version_id="1" version_string="2.4"><![CDATA[Members Online Now*]]></phrase>
+    <phrase title="option_sidebarPositionsMembersOnlineNow_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the XenForo Members Online Now block.]]></phrase>
+    <phrase title="option_sidebarPositionsMembersOnline_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the Members Online add-on.]]></phrase>
+    <phrase title="option_sidebarPositionsMostLikes" version_id="1" version_string="2.4"><![CDATA[Most Likes]]></phrase>
+    <phrase title="option_sidebarPositionsMostLikes_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the Most Likes add-on.]]></phrase>
+    <phrase title="option_sidebarPositionsMostPosts" version_id="1" version_string="2.4"><![CDATA[Most Posts]]></phrase>
+    <phrase title="option_sidebarPositionsMostPosts_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the Most Posts add-on.]]></phrase>
+    <phrase title="option_sidebarPositionsNewPosts" version_id="1" version_string="2.4"><![CDATA[New Posts*]]></phrase>
+    <phrase title="option_sidebarPositionsNewPosts_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the XenForo New Posts block.]]></phrase>
+    <phrase title="option_sidebarPositionsNewProfilePosts" version_id="1" version_string="2.4"><![CDATA[New Profile Posts*]]></phrase>
+    <phrase title="option_sidebarPositionsNewProfilePosts_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the XenForo New Profile Posts block.]]></phrase>
+    <phrase title="option_sidebarPositionsNewResources" version_id="1" version_string="2.5"><![CDATA[New Resources*]]></phrase>
+    <phrase title="option_sidebarPositionsNewResources_explain" version_id="1" version_string="2.5"><![CDATA[Sidebar position for the XenForo New Resources block.]]></phrase>
+    <phrase title="option_sidebarPositionsShareThisPage" version_id="1" version_string="2.4"><![CDATA[Share This Page*]]></phrase>
+    <phrase title="option_sidebarPositionsShareThisPage_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the XenForo Share This Page block.]]></phrase>
+    <phrase title="option_sidebarPositionsSidebarExtraFour" version_id="1" version_string="2.4"><![CDATA[Sidebar Extra Four]]></phrase>
+    <phrase title="option_sidebarPositionsSidebarExtraFour_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the Sidebar Extra Four add-on.]]></phrase>
+    <phrase title="option_sidebarPositionsSidebarExtraOne" version_id="1" version_string="2.4"><![CDATA[Sidebar Extra One]]></phrase>
+    <phrase title="option_sidebarPositionsSidebarExtraOne_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the Sidebar Extra One add-on.]]></phrase>
+    <phrase title="option_sidebarPositionsSidebarExtraThree" version_id="1" version_string="2.4"><![CDATA[Sidebar Extra Three]]></phrase>
+    <phrase title="option_sidebarPositionsSidebarExtraThree_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the Sidebar Extra Three add-on.]]></phrase>
+    <phrase title="option_sidebarPositionsSidebarExtraTwo" version_id="1" version_string="2.4"><![CDATA[Sidebar Extra Two]]></phrase>
+    <phrase title="option_sidebarPositionsSidebarExtraTwo_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the Sidebar Extra Two add-on.]]></phrase>
+    <phrase title="option_sidebarPositionsSidebarNotices" version_id="1" version_string="2.4"><![CDATA[Sidebar Notices]]></phrase>
+    <phrase title="option_sidebarPositionsSidebarNotices_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the Sidebar Notices add-on.]]></phrase>
+    <phrase title="option_sidebarPositionsStaffOnlineNow" version_id="1" version_string="2.4"><![CDATA[Staff Online Now*]]></phrase>
+    <phrase title="option_sidebarPositionsStaffOnlineNow_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the XenForo Staff Online Now block.]]></phrase>
+    <phrase title="option_sidebarPositionsStatistics" version_id="1" version_string="2.4"><![CDATA[Statistics]]></phrase>
+    <phrase title="option_sidebarPositionsStatistics_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the Statistics add-on.]]></phrase>
+    <phrase title="option_sidebarPositionsTodaysBirthdays" version_id="1" version_string="2.4"><![CDATA[Today's Birthdays]]></phrase>
+    <phrase title="option_sidebarPositionsTodaysBirthdays_explain" version_id="1" version_string="2.4"><![CDATA[Sidebar position for the Today's Birthdays add-on.]]></phrase>
+  </phrases>
+  <route_prefixes/>
+  <style_properties/>
+  <templates>
+    <template title="andy_forum_statistics" version_id="1" version_string="1.6"><![CDATA[<div class="section">
+    <div class="secondaryContent statsList" id="boardStats">
+        <h3>{xen:phrase forum_statistics}</h3>
+        <div class="pairsJustified">
+            <dl class="discussionCount"><dt>{xen:phrase discussions}:</dt>
+                <dd>{xen:number $boardTotals.discussions}</dd></dl>
+            <dl class="messageCount"><dt>{xen:phrase messages}:</dt>
+                <dd>{xen:number $boardTotals.messages}</dd></dl>
+            <dl class="memberCount"><dt>{xen:phrase members_count}:</dt>
+                <dd>{xen:number $boardTotals.users}</dd></dl>
+            <dl><dt>{xen:phrase latest_member}:</dt>
+                <dd><xen:username user="$boardTotals.latestUser" /></dd></dl>
+            <!-- slot: forum_stats_extra -->
+        </div>
+    </div>
+</div>]]></template>
+    <template title="andy_members_online_now" version_id="1" version_string="1.9"><![CDATA[<div class="section membersOnline userList">		
+	<div class="secondaryContent">
+		<h3><a href="{xen:link online}" title="{xen:phrase see_all_online_users}">{xen:phrase members_online_now}</a></h3>
+		
+		<xen:if is="{$onlineUsers.records}">
+		
+			<xen:if is="{$visitor.user_id}">
+				<xen:if hascontent="true">
+				<h4 class="minorHeading"><a href="{xen:link account/following}">{xen:phrase people_you_follow}:</a></h4>
+				<ul class="followedOnline">
+					<xen:contentcheck>
+						<xen:foreach loop="$onlineUsers.records" value="$user">
+							<xen:if is="{$user.followed}">
+								<li title="{$user.username}" class="Tooltip"><xen:avatar user="$user" size="s" img="true" class="_plainImage" /></li>
+							</xen:if>
+						</xen:foreach>
+					</xen:contentcheck>
+				</ul>
+				<h4 class="minorHeading"><a href="{xen:link members}">{xen:phrase members}:</a></h4>
+				</xen:if>
+			</xen:if>
+			
+			<ol class="listInline">
+				<xen:foreach loop="$onlineUsers.records" value="$user" i="$i">
+					<xen:if is="{$i} <= {$onlineUsers.limit}">
+						<li>
+						<xen:if is="{$user.user_id}">
+							<a href="{xen:link members, $user}"
+								class="username{xen:if '!{$user.visible}', ' invisible'}{xen:if {$user.followed}, ' followed'}">{xen:helper richUserName, $user}</a><xen:if is="{$i} < {$onlineUsers.limit}">,</xen:if>
+						<xen:else />
+							{xen:phrase guest}<xen:if is="{$i} < {$onlineUsers.limit}">,</xen:if>
+						</xen:if>
+						</li>
+					</xen:if>
+				</xen:foreach>
+				<xen:if is="{$onlineUsers.recordsUnseen}">
+					<li class="moreLink">... <a href="{xen:link online}" title="{xen:phrase see_all_visitors}">{xen:phrase and_x_more, 'count={xen:number $onlineUsers.recordsUnseen}'}</a></li>
+				</xen:if>
+			</ol>
+		</xen:if>
+		
+		<div class="footnote">
+			{xen:phrase online_now_x_members_y_guests_z_robots_a, 'total={xen:number $onlineUsers.total}', 'members={xen:number $onlineUsers.members}', 'guests={xen:number $onlineUsers.guests}', 'robots={xen:number $onlineUsers.robots}'}
+		</div>
+	</div>
+</div>]]></template>
+    <template title="andy_new_posts" version_id="1" version_string="2.4"><![CDATA[<xen:if is="{$threads}">
+    <div class="section threadList">
+        <div class="secondaryContent">
+            <h3><a href="{xen:link find-new/posts}">{xen:phrase new_posts}</a></h3>
+            <xen:include template="sidebar_new_posts" />
+        </div>
+    </div>
+</xen:if>]]></template>
+    <template title="andy_new_profile_posts" version_id="1" version_string="2.6"><![CDATA[<xen:if is="{$profilePosts}">
+    <div class="section profilePostList">
+        <div class="secondaryContent">
+            <h3><a href="{xen:link find-new/profile-posts}">{xen:phrase new_profile_posts}</a></h3>
+            <xen:include template="sidebar_profile_post_list" />
+        </div>
+    </div>
+</xen:if>]]></template>
+    <template title="andy_resource_forum_list_sidebar" version_id="1" version_string="2.5"><![CDATA[<xen:if is="{$latestResources}">
+	<div class="section miniResourceList">
+		<div class="secondaryContent">
+			<h3><a href="{xen:link find-new/resources}">{xen:phrase new_resources}</a></h3>
+			<xen:include template="resource_list_mini">
+				<xen:map from="$latestResources" to="$resources" />
+			</xen:include>
+		</div>
+	</div>
+</xen:if>]]></template>
+    <template title="andy_share_this_page" version_id="1" version_string="2.3"><![CDATA[<xen:if hascontent="true">	
+	<xen:require css="sidebar_share_page.css" />
+	<div class="section infoBlock sharePage">
+		<div class="secondaryContent">
+			<h3>{xen:phrase share_this_page}</h3>
+			<xen:contentcheck>
+				<xen:hook name="sidebar_share_page_options">
+				<xen:if is="{$xenOptions.tweet.enabled}">
+					<div class="tweet shareControl">
+						<a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal"
+							data-lang="{xen:helper twitterLang, $visitorLanguage.language_code}"
+							data-url="{$url}"
+							{xen:if {$xenOptions.tweet.via}, 'data-via="{$xenOptions.tweet.via}"'}
+							{xen:if {$xenOptions.tweet.related}, 'data-related="{$xenOptions.tweet.related}"'}>{xen:phrase tweet}</a>
+					</div>
+				</xen:if>		
+				<xen:if is="{$xenOptions.facebookLike}">
+					<div class="facebookLike shareControl">
+						<xen:container var="$facebookSdk">1</xen:container>
+						<div class="fb-like" data-href="{$url}" data-layout="button_count" data-action="{$xenOptions.facebookLikeAction}" data-font="trebuchet ms" data-colorscheme="{xen:property fbColorScheme}"></div>
+					</div>
+				</xen:if>
+				<xen:if is="{$xenOptions.plusone}">
+					<div class="plusone shareControl">
+						<div class="g-plusone" data-size="medium" data-count="true" data-href="{$url}"></div>
+					</div>
+				</xen:if>	
+				</xen:hook>		
+			</xen:contentcheck>
+		</div>
+	</div>
+</xen:if>]]></template>
+    <template title="andy_staff_online_now" version_id="1" version_string="1.5"><![CDATA[<xen:if hascontent="true">
+	<div class="section staffOnline avatarList">
+		<div class="secondaryContent">
+			<h3><a href="{xen:link members, '', 'type=staff'}">{xen:phrase staff_online_now}</a></h3>
+			<ul>
+				<xen:contentcheck>
+					<xen:foreach loop="$onlineUsers.records" value="$user">
+						<xen:if is="{$user.is_staff}">
+							<li>
+								<xen:avatar user="$user" size="s" img="true" />
+								<xen:username user="$user" rich="true" />
+								<div class="userTitle">{xen:helper userTitle, $user}</div>
+							</li>
+						</xen:if>
+					</xen:foreach>
+				</xen:contentcheck>
+			</ul>
+		</div>
+	</div>
+</xen:if>]]></template>
+  </templates>
+  <public_template_modifications>
+    <modification template="forum_list" modification_key="SidebarPositions_forum_list_1" description="SidebarPositions_forum_list_1" execution_order="10" enabled="1" action="str_replace">
+      <find><![CDATA[<xen:sidebar>]]></find>
+      <replace><![CDATA[$0
+<xen:if is="{$xenOptions.sidebarPositionsBanner} == '1'">
+    <xen:include template="andy_banner_location_1" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsToday} == '1'">
+    <xen:include template="andy_calendar_events_today" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsTomorrow} == '1'">
+    <xen:include template="andy_calendar_events_tomorrow" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsUpcoming} == '1'">
+    <xen:include template="andy_calendar_events_upcoming" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCountdown} == '1'">
+    <xen:include template="andy_countdown" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnline} == '1'">
+    <xen:include template="andy_membersonline" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostLikes} == '1'">
+    <xen:include template="andy_mostlikes" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostPosts} == '1'">
+    <xen:include template="andy_mostposts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarDonations} == '1'">
+    <xen:include template="andy_sidebar_donations" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraOne} == '1'">
+    <xen:include template="andy_sidebar_extra_one" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraTwo} == '1'">
+    <xen:include template="andy_sidebar_extra_two" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraThree} == '1'">
+    <xen:include template="andy_sidebar_extra_three" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraFour} == '1'">
+    <xen:include template="andy_sidebar_extra_four" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarNotices} == '1'">
+    <xen:include template="andy_sidebarnotices" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStatistics} == '1'">
+    <xen:include template="andy_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsTodaysBirthdays} == '1'">
+    <xen:include template="andy_todaysbirthdays" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsForumStatistics} == '1'">
+    <xen:include template="andy_forum_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnlineNow} == '1'">
+    <xen:include template="andy_members_online_now" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewPosts} == '1'">
+    <xen:include template="andy_new_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewProfilePosts} == '1'">
+    <xen:include template="andy_new_profile_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewResources} == '1'">
+    <xen:include template="andy_resource_forum_list_sidebar" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsShareThisPage} == '1'">
+    <xen:include template="andy_share_this_page" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStaffOnlineNow} == '1'">
+    <xen:include template="andy_staff_online_now" />
+</xen:if>
+
+<xen:if is="{$xenOptions.sidebarPositionsBanner} == '2'">
+    <xen:include template="andy_banner_location_1" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsToday} == '2'">
+    <xen:include template="andy_calendar_events_today" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsTomorrow} == '2'">
+    <xen:include template="andy_calendar_events_tomorrow" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsUpcoming} == '2'">
+    <xen:include template="andy_calendar_events_upcoming" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCountdown} == '2'">
+    <xen:include template="andy_countdown" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnline} == '2'">
+    <xen:include template="andy_membersonline" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostLikes} == '2'">
+    <xen:include template="andy_mostlikes" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostPosts} == '2'">
+    <xen:include template="andy_mostposts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarDonations} == '2'">
+    <xen:include template="andy_sidebar_donations" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraOne} == '2'">
+    <xen:include template="andy_sidebar_extra_one" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraTwo} == '2'">
+    <xen:include template="andy_sidebar_extra_two" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraThree} == '2'">
+    <xen:include template="andy_sidebar_extra_three" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraFour} == '2'">
+    <xen:include template="andy_sidebar_extra_four" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarNotices} == '2'">
+    <xen:include template="andy_sidebarnotices" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStatistics} == '2'">
+    <xen:include template="andy_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsTodaysBirthdays} == '2'">
+    <xen:include template="andy_todaysbirthdays" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsForumStatistics} == '2'">
+    <xen:include template="andy_forum_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnlineNow} == '2'">
+    <xen:include template="andy_members_online_now" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewPosts} == '2'">
+    <xen:include template="andy_new_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewProfilePosts} == '2'">
+    <xen:include template="andy_new_profile_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewResources} == '2'">
+    <xen:include template="andy_resource_forum_list_sidebar" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsShareThisPage} == '2'">
+    <xen:include template="andy_share_this_page" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStaffOnlineNow} == '2'">
+    <xen:include template="andy_staff_online_now" />
+</xen:if>
+
+<xen:if is="{$xenOptions.sidebarPositionsBanner} == '3'">
+    <xen:include template="andy_banner_location_1" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsToday} == '3'">
+    <xen:include template="andy_calendar_events_today" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsTomorrow} == '3'">
+    <xen:include template="andy_calendar_events_tomorrow" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsUpcoming} == '3'">
+    <xen:include template="andy_calendar_events_upcoming" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCountdown} == '3'">
+    <xen:include template="andy_countdown" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnline} == '3'">
+    <xen:include template="andy_membersonline" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostLikes} == '3'">
+    <xen:include template="andy_mostlikes" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostPosts} == '3'">
+    <xen:include template="andy_mostposts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarDonations} == '3'">
+    <xen:include template="andy_sidebar_donations" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraOne} == '3'">
+    <xen:include template="andy_sidebar_extra_one" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraTwo} == '3'">
+    <xen:include template="andy_sidebar_extra_two" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraThree} == '3'">
+    <xen:include template="andy_sidebar_extra_three" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraFour} == '3'">
+    <xen:include template="andy_sidebar_extra_four" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarNotices} == '3'">
+    <xen:include template="andy_sidebarnotices" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStatistics} == '3'">
+    <xen:include template="andy_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsTodaysBirthdays} == '3'">
+    <xen:include template="andy_todaysbirthdays" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsForumStatistics} == '3'">
+    <xen:include template="andy_forum_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnlineNow} == '3'">
+    <xen:include template="andy_members_online_now" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewPosts} == '3'">
+    <xen:include template="andy_new_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewProfilePosts} == '3'">
+    <xen:include template="andy_new_profile_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewResources} == '3'">
+    <xen:include template="andy_resource_forum_list_sidebar" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsShareThisPage} == '3'">
+    <xen:include template="andy_share_this_page" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStaffOnlineNow} == '3'">
+    <xen:include template="andy_staff_online_now" />
+</xen:if>
+
+<xen:if is="{$xenOptions.sidebarPositionsBanner} == '4'">
+    <xen:include template="andy_banner_location_1" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsToday} == '4'">
+    <xen:include template="andy_calendar_events_today" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsTomorrow} == '4'">
+    <xen:include template="andy_calendar_events_tomorrow" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsUpcoming} == '4'">
+    <xen:include template="andy_calendar_events_upcoming" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCountdown} == '4'">
+    <xen:include template="andy_countdown" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnline} == '4'">
+    <xen:include template="andy_membersonline" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostLikes} == '4'">
+    <xen:include template="andy_mostlikes" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostPosts} == '4'">
+    <xen:include template="andy_mostposts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarDonations} == '4'">
+    <xen:include template="andy_sidebar_donations" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraOne} == '4'">
+    <xen:include template="andy_sidebar_extra_one" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraTwo} == '4'">
+    <xen:include template="andy_sidebar_extra_two" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraThree} == '4'">
+    <xen:include template="andy_sidebar_extra_three" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraFour} == '4'">
+    <xen:include template="andy_sidebar_extra_four" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarNotices} == '4'">
+    <xen:include template="andy_sidebarnotices" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStatistics} == '4'">
+    <xen:include template="andy_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsTodaysBirthdays} == '4'">
+    <xen:include template="andy_todaysbirthdays" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsForumStatistics} == '4'">
+    <xen:include template="andy_forum_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnlineNow} == '4'">
+    <xen:include template="andy_members_online_now" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewPosts} == '4'">
+    <xen:include template="andy_new_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewProfilePosts} == '4'">
+    <xen:include template="andy_new_profile_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewResources} == '4'">
+    <xen:include template="andy_resource_forum_list_sidebar" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsShareThisPage} == '4'">
+    <xen:include template="andy_share_this_page" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStaffOnlineNow} == '4'">
+    <xen:include template="andy_staff_online_now" />
+</xen:if>
+
+<xen:if is="{$xenOptions.sidebarPositionsBanner} == '5'">
+    <xen:include template="andy_banner_location_1" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsToday} == '5'">
+    <xen:include template="andy_calendar_events_today" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsTomorrow} == '5'">
+    <xen:include template="andy_calendar_events_tomorrow" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsUpcoming} == '5'">
+    <xen:include template="andy_calendar_events_upcoming" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCountdown} == '5'">
+    <xen:include template="andy_countdown" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnline} == '5'">
+    <xen:include template="andy_membersonline" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostLikes} == '5'">
+    <xen:include template="andy_mostlikes" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostPosts} == '5'">
+    <xen:include template="andy_mostposts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarDonations} == '5'">
+    <xen:include template="andy_sidebar_donations" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraOne} == '5'">
+    <xen:include template="andy_sidebar_extra_one" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraTwo} == '5'">
+    <xen:include template="andy_sidebar_extra_two" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraThree} == '5'">
+    <xen:include template="andy_sidebar_extra_three" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraFour} == '5'">
+    <xen:include template="andy_sidebar_extra_four" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarNotices} == '5'">
+    <xen:include template="andy_sidebarnotices" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStatistics} == '5'">
+    <xen:include template="andy_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsTodaysBirthdays} == '5'">
+    <xen:include template="andy_todaysbirthdays" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsForumStatistics} == '5'">
+    <xen:include template="andy_forum_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnlineNow} == '5'">
+    <xen:include template="andy_members_online_now" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewPosts} == '5'">
+    <xen:include template="andy_new_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewProfilePosts} == '5'">
+    <xen:include template="andy_new_profile_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewResources} == '5'">
+    <xen:include template="andy_resource_forum_list_sidebar" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsShareThisPage} == '5'">
+    <xen:include template="andy_share_this_page" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStaffOnlineNow} == '5'">
+    <xen:include template="andy_staff_online_now" />
+</xen:if>
+
+<xen:if is="{$xenOptions.sidebarPositionsBanner} == '6'">
+    <xen:include template="andy_banner_location_1" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsToday} == '6'">
+    <xen:include template="andy_calendar_events_today" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsTomorrow} == '6'">
+    <xen:include template="andy_calendar_events_tomorrow" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsUpcoming} == '6'">
+    <xen:include template="andy_calendar_events_upcoming" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCountdown} == '6'">
+    <xen:include template="andy_countdown" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnline} == '6'">
+    <xen:include template="andy_membersonline" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostLikes} == '6'">
+    <xen:include template="andy_mostlikes" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostPosts} == '6'">
+    <xen:include template="andy_mostposts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarDonations} == '6'">
+    <xen:include template="andy_sidebar_donations" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraOne} == '6'">
+    <xen:include template="andy_sidebar_extra_one" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraTwo} == '6'">
+    <xen:include template="andy_sidebar_extra_two" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraThree} == '6'">
+    <xen:include template="andy_sidebar_extra_three" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraFour} == '6'">
+    <xen:include template="andy_sidebar_extra_four" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarNotices} == '6'">
+    <xen:include template="andy_sidebarnotices" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStatistics} == '6'">
+    <xen:include template="andy_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsTodaysBirthdays} == '6'">
+    <xen:include template="andy_todaysbirthdays" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsForumStatistics} == '6'">
+    <xen:include template="andy_forum_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnlineNow} == '6'">
+    <xen:include template="andy_members_online_now" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewPosts} == '6'">
+    <xen:include template="andy_new_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewProfilePosts} == '6'">
+    <xen:include template="andy_new_profile_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewResources} == '6'">
+    <xen:include template="andy_resource_forum_list_sidebar" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsShareThisPage} == '6'">
+    <xen:include template="andy_share_this_page" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStaffOnlineNow} == '6'">
+    <xen:include template="andy_staff_online_now" />
+</xen:if>
+
+<xen:if is="{$xenOptions.sidebarPositionsBanner} == '7'">
+    <xen:include template="andy_banner_location_1" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsToday} == '7'">
+    <xen:include template="andy_calendar_events_today" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsTomorrow} == '7'">
+    <xen:include template="andy_calendar_events_tomorrow" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsUpcoming} == '7'">
+    <xen:include template="andy_calendar_events_upcoming" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCountdown} == '7'">
+    <xen:include template="andy_countdown" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnline} == '7'">
+    <xen:include template="andy_membersonline" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostLikes} == '7'">
+    <xen:include template="andy_mostlikes" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostPosts} == '7'">
+    <xen:include template="andy_mostposts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarDonations} == '7'">
+    <xen:include template="andy_sidebar_donations" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraOne} == '7'">
+    <xen:include template="andy_sidebar_extra_one" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraTwo} == '7'">
+    <xen:include template="andy_sidebar_extra_two" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraThree} == '7'">
+    <xen:include template="andy_sidebar_extra_three" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraFour} == '7'">
+    <xen:include template="andy_sidebar_extra_four" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarNotices} == '7'">
+    <xen:include template="andy_sidebarnotices" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStatistics} == '7'">
+    <xen:include template="andy_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsTodaysBirthdays} == '7'">
+    <xen:include template="andy_todaysbirthdays" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsForumStatistics} == '7'">
+    <xen:include template="andy_forum_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnlineNow} == '7'">
+    <xen:include template="andy_members_online_now" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewPosts} == '7'">
+    <xen:include template="andy_new_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewProfilePosts} == '7'">
+    <xen:include template="andy_new_profile_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewResources} == '7'">
+    <xen:include template="andy_resource_forum_list_sidebar" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsShareThisPage} == '7'">
+    <xen:include template="andy_share_this_page" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStaffOnlineNow} == '7'">
+    <xen:include template="andy_staff_online_now" />
+</xen:if>
+
+<xen:if is="{$xenOptions.sidebarPositionsBanner} == '8'">
+    <xen:include template="andy_banner_location_1" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsToday} == '8'">
+    <xen:include template="andy_calendar_events_today" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsTomorrow} == '8'">
+    <xen:include template="andy_calendar_events_tomorrow" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsUpcoming} == '8'">
+    <xen:include template="andy_calendar_events_upcoming" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCountdown} == '8'">
+    <xen:include template="andy_countdown" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnline} == '8'">
+    <xen:include template="andy_membersonline" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostLikes} == '8'">
+    <xen:include template="andy_mostlikes" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostPosts} == '8'">
+    <xen:include template="andy_mostposts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarDonations} == '8'">
+    <xen:include template="andy_sidebar_donations" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraOne} == '8'">
+    <xen:include template="andy_sidebar_extra_one" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraTwo} == '8'">
+    <xen:include template="andy_sidebar_extra_two" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraThree} == '8'">
+    <xen:include template="andy_sidebar_extra_three" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraFour} == '8'">
+    <xen:include template="andy_sidebar_extra_four" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarNotices} == '8'">
+    <xen:include template="andy_sidebarnotices" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStatistics} == '8'">
+    <xen:include template="andy_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsTodaysBirthdays} == '8'">
+    <xen:include template="andy_todaysbirthdays" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsForumStatistics} == '8'">
+    <xen:include template="andy_forum_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnlineNow} == '8'">
+    <xen:include template="andy_members_online_now" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewPosts} == '8'">
+    <xen:include template="andy_new_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewProfilePosts} == '8'">
+    <xen:include template="andy_new_profile_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewResources} == '8'">
+    <xen:include template="andy_resource_forum_list_sidebar" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsShareThisPage} == '8'">
+    <xen:include template="andy_share_this_page" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStaffOnlineNow} == '8'">
+    <xen:include template="andy_staff_online_now" />
+</xen:if>
+
+<xen:if is="{$xenOptions.sidebarPositionsBanner} == '9'">
+    <xen:include template="andy_banner_location_1" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsToday} == '9'">
+    <xen:include template="andy_calendar_events_today" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsTomorrow} == '9'">
+    <xen:include template="andy_calendar_events_tomorrow" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsUpcoming} == '9'">
+    <xen:include template="andy_calendar_events_upcoming" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCountdown} == '9'">
+    <xen:include template="andy_countdown" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnline} == '9'">
+    <xen:include template="andy_membersonline" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostLikes} == '9'">
+    <xen:include template="andy_mostlikes" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostPosts} == '9'">
+    <xen:include template="andy_mostposts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarDonations} == '9'">
+    <xen:include template="andy_sidebar_donations" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraOne} == '9'">
+    <xen:include template="andy_sidebar_extra_one" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraTwo} == '9'">
+    <xen:include template="andy_sidebar_extra_two" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraThree} == '9'">
+    <xen:include template="andy_sidebar_extra_three" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraFour} == '9'">
+    <xen:include template="andy_sidebar_extra_four" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarNotices} == '9'">
+    <xen:include template="andy_sidebarnotices" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStatistics} == '9'">
+    <xen:include template="andy_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsTodaysBirthdays} == '9'">
+    <xen:include template="andy_todaysbirthdays" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsForumStatistics} == '9'">
+    <xen:include template="andy_forum_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnlineNow} == '9'">
+    <xen:include template="andy_members_online_now" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewPosts} == '9'">
+    <xen:include template="andy_new_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewProfilePosts} == '9'">
+    <xen:include template="andy_new_profile_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewResources} == '9'">
+    <xen:include template="andy_resource_forum_list_sidebar" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsShareThisPage} == '9'">
+    <xen:include template="andy_share_this_page" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStaffOnlineNow} == '9'">
+    <xen:include template="andy_staff_online_now" />
+</xen:if>
+
+<xen:if is="{$xenOptions.sidebarPositionsBanner} == '10'">
+    <xen:include template="andy_banner_location_1" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsToday} == '10'">
+    <xen:include template="andy_calendar_events_today" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsTomorrow} == '10'">
+    <xen:include template="andy_calendar_events_tomorrow" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsUpcoming} == '10'">
+    <xen:include template="andy_calendar_events_upcoming" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCountdown} == '10'">
+    <xen:include template="andy_countdown" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnline} == '10'">
+    <xen:include template="andy_membersonline" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostLikes} == '10'">
+    <xen:include template="andy_mostlikes" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostPosts} == '10'">
+    <xen:include template="andy_mostposts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarDonations} == '10'">
+    <xen:include template="andy_sidebar_donations" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraOne} == '10'">
+    <xen:include template="andy_sidebar_extra_one" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraTwo} == '10'">
+    <xen:include template="andy_sidebar_extra_two" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraThree} == '10'">
+    <xen:include template="andy_sidebar_extra_three" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraFour} == '10'">
+    <xen:include template="andy_sidebar_extra_four" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarNotices} == '10'">
+    <xen:include template="andy_sidebarnotices" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStatistics} == '10'">
+    <xen:include template="andy_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsTodaysBirthdays} == '10'">
+    <xen:include template="andy_todaysbirthdays" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsForumStatistics} == '10'">
+    <xen:include template="andy_forum_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnlineNow} == '10'">
+    <xen:include template="andy_members_online_now" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewPosts} == '10'">
+    <xen:include template="andy_new_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewProfilePosts} == '10'">
+    <xen:include template="andy_new_profile_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewResources} == '10'">
+    <xen:include template="andy_resource_forum_list_sidebar" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsShareThisPage} == '10'">
+    <xen:include template="andy_share_this_page" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStaffOnlineNow} == '10'">
+    <xen:include template="andy_staff_online_now" />
+</xen:if>
+
+<xen:if is="{$xenOptions.sidebarPositionsBanner} == '11'">
+    <xen:include template="andy_banner_location_1" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsToday} == '11'">
+    <xen:include template="andy_calendar_events_today" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsTomorrow} == '11'">
+    <xen:include template="andy_calendar_events_tomorrow" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsUpcoming} == '11'">
+    <xen:include template="andy_calendar_events_upcoming" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCountdown} == '11'">
+    <xen:include template="andy_countdown" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnline} == '11'">
+    <xen:include template="andy_membersonline" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostLikes} == '11'">
+    <xen:include template="andy_mostlikes" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostPosts} == '11'">
+    <xen:include template="andy_mostposts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarDonations} == '11'">
+    <xen:include template="andy_sidebar_donations" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraOne} == '11'">
+    <xen:include template="andy_sidebar_extra_one" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraTwo} == '11'">
+    <xen:include template="andy_sidebar_extra_two" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraThree} == '11'">
+    <xen:include template="andy_sidebar_extra_three" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraFour} == '11'">
+    <xen:include template="andy_sidebar_extra_four" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarNotices} == '11'">
+    <xen:include template="andy_sidebarnotices" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStatistics} == '11'">
+    <xen:include template="andy_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsTodaysBirthdays} == '11'">
+    <xen:include template="andy_todaysbirthdays" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsForumStatistics} == '11'">
+    <xen:include template="andy_forum_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnlineNow} == '11'">
+    <xen:include template="andy_members_online_now" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewPosts} == '11'">
+    <xen:include template="andy_new_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewProfilePosts} == '11'">
+    <xen:include template="andy_new_profile_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewResources} == '11'">
+    <xen:include template="andy_resource_forum_list_sidebar" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsShareThisPage} == '11'">
+    <xen:include template="andy_share_this_page" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStaffOnlineNow} == '11'">
+    <xen:include template="andy_staff_online_now" />
+</xen:if>
+
+<xen:if is="{$xenOptions.sidebarPositionsBanner} == '12'">
+    <xen:include template="andy_banner_location_1" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsToday} == '12'">
+    <xen:include template="andy_calendar_events_today" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsTomorrow} == '12'">
+    <xen:include template="andy_calendar_events_tomorrow" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsUpcoming} == '12'">
+    <xen:include template="andy_calendar_events_upcoming" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCountdown} == '12'">
+    <xen:include template="andy_countdown" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnline} == '12'">
+    <xen:include template="andy_membersonline" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostLikes} == '12'">
+    <xen:include template="andy_mostlikes" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostPosts} == '12'">
+    <xen:include template="andy_mostposts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarDonations} == '12'">
+    <xen:include template="andy_sidebar_donations" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraOne} == '12'">
+    <xen:include template="andy_sidebar_extra_one" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraTwo} == '12'">
+    <xen:include template="andy_sidebar_extra_two" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraThree} == '12'">
+    <xen:include template="andy_sidebar_extra_three" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraFour} == '12'">
+    <xen:include template="andy_sidebar_extra_four" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarNotices} == '12'">
+    <xen:include template="andy_sidebarnotices" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStatistics} == '12'">
+    <xen:include template="andy_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsTodaysBirthdays} == '12'">
+    <xen:include template="andy_todaysbirthdays" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsForumStatistics} == '12'">
+    <xen:include template="andy_forum_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnlineNow} == '12'">
+    <xen:include template="andy_members_online_now" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewPosts} == '12'">
+    <xen:include template="andy_new_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewProfilePosts} == '12'">
+    <xen:include template="andy_new_profile_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewResources} == '12'">
+    <xen:include template="andy_resource_forum_list_sidebar" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsShareThisPage} == '12'">
+    <xen:include template="andy_share_this_page" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStaffOnlineNow} == '12'">
+    <xen:include template="andy_staff_online_now" />
+</xen:if>
+
+<xen:if is="{$xenOptions.sidebarPositionsBanner} == '13'">
+    <xen:include template="andy_banner_location_1" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsToday} == '13'">
+    <xen:include template="andy_calendar_events_today" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsTomorrow} == '13'">
+    <xen:include template="andy_calendar_events_tomorrow" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsUpcoming} == '13'">
+    <xen:include template="andy_calendar_events_upcoming" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCountdown} == '13'">
+    <xen:include template="andy_countdown" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnline} == '13'">
+    <xen:include template="andy_membersonline" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostLikes} == '13'">
+    <xen:include template="andy_mostlikes" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostPosts} == '13'">
+    <xen:include template="andy_mostposts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarDonations} == '13'">
+    <xen:include template="andy_sidebar_donations" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraOne} == '13'">
+    <xen:include template="andy_sidebar_extra_one" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraTwo} == '13'">
+    <xen:include template="andy_sidebar_extra_two" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraThree} == '13'">
+    <xen:include template="andy_sidebar_extra_three" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraFour} == '13'">
+    <xen:include template="andy_sidebar_extra_four" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarNotices} == '13'">
+    <xen:include template="andy_sidebarnotices" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStatistics} == '13'">
+    <xen:include template="andy_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsTodaysBirthdays} == '13'">
+    <xen:include template="andy_todaysbirthdays" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsForumStatistics} == '13'">
+    <xen:include template="andy_forum_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnlineNow} == '13'">
+    <xen:include template="andy_members_online_now" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewPosts} == '13'">
+    <xen:include template="andy_new_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewProfilePosts} == '13'">
+    <xen:include template="andy_new_profile_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewResources} == '13'">
+    <xen:include template="andy_resource_forum_list_sidebar" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsShareThisPage} == '13'">
+    <xen:include template="andy_share_this_page" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStaffOnlineNow} == '13'">
+    <xen:include template="andy_staff_online_now" />
+</xen:if>
+
+<xen:if is="{$xenOptions.sidebarPositionsBanner} == '14'">
+    <xen:include template="andy_banner_location_1" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsToday} == '14'">
+    <xen:include template="andy_calendar_events_today" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsTomorrow} == '14'">
+    <xen:include template="andy_calendar_events_tomorrow" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsUpcoming} == '14'">
+    <xen:include template="andy_calendar_events_upcoming" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCountdown} == '14'">
+    <xen:include template="andy_countdown" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnline} == '14'">
+    <xen:include template="andy_membersonline" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostLikes} == '14'">
+    <xen:include template="andy_mostlikes" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostPosts} == '14'">
+    <xen:include template="andy_mostposts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarDonations} == '14'">
+    <xen:include template="andy_sidebar_donations" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraOne} == '14'">
+    <xen:include template="andy_sidebar_extra_one" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraTwo} == '14'">
+    <xen:include template="andy_sidebar_extra_two" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraThree} == '14'">
+    <xen:include template="andy_sidebar_extra_three" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraFour} == '14'">
+    <xen:include template="andy_sidebar_extra_four" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarNotices} == '14'">
+    <xen:include template="andy_sidebarnotices" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStatistics} == '14'">
+    <xen:include template="andy_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsTodaysBirthdays} == '14'">
+    <xen:include template="andy_todaysbirthdays" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsForumStatistics} == '14'">
+    <xen:include template="andy_forum_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnlineNow} == '14'">
+    <xen:include template="andy_members_online_now" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewPosts} == '14'">
+    <xen:include template="andy_new_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewProfilePosts} == '14'">
+    <xen:include template="andy_new_profile_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewResources} == '14'">
+    <xen:include template="andy_resource_forum_list_sidebar" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsShareThisPage} == '14'">
+    <xen:include template="andy_share_this_page" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStaffOnlineNow} == '14'">
+    <xen:include template="andy_staff_online_now" />
+</xen:if>
+
+<xen:if is="{$xenOptions.sidebarPositionsBanner} == '15'">
+    <xen:include template="andy_banner_location_1" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsToday} == '15'">
+    <xen:include template="andy_calendar_events_today" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsTomorrow} == '15'">
+    <xen:include template="andy_calendar_events_tomorrow" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsUpcoming} == '15'">
+    <xen:include template="andy_calendar_events_upcoming" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCountdown} == '15'">
+    <xen:include template="andy_countdown" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnline} == '15'">
+    <xen:include template="andy_membersonline" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostLikes} == '15'">
+    <xen:include template="andy_mostlikes" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostPosts} == '15'">
+    <xen:include template="andy_mostposts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarDonations} == '15'">
+    <xen:include template="andy_sidebar_donations" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraOne} == '15'">
+    <xen:include template="andy_sidebar_extra_one" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraTwo} == '15'">
+    <xen:include template="andy_sidebar_extra_two" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraThree} == '15'">
+    <xen:include template="andy_sidebar_extra_three" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraFour} == '15'">
+    <xen:include template="andy_sidebar_extra_four" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarNotices} == '15'">
+    <xen:include template="andy_sidebarnotices" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStatistics} == '15'">
+    <xen:include template="andy_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsTodaysBirthdays} == '15'">
+    <xen:include template="andy_todaysbirthdays" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsForumStatistics} == '15'">
+    <xen:include template="andy_forum_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnlineNow} == '15'">
+    <xen:include template="andy_members_online_now" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewPosts} == '15'">
+    <xen:include template="andy_new_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewProfilePosts} == '15'">
+    <xen:include template="andy_new_profile_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewResources} == '15'">
+    <xen:include template="andy_resource_forum_list_sidebar" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsShareThisPage} == '15'">
+    <xen:include template="andy_share_this_page" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStaffOnlineNow} == '15'">
+    <xen:include template="andy_staff_online_now" />
+</xen:if>
+
+<xen:if is="{$xenOptions.sidebarPositionsBanner} == '16'">
+    <xen:include template="andy_banner_location_1" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsToday} == '16'">
+    <xen:include template="andy_calendar_events_today" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsTomorrow} == '16'">
+    <xen:include template="andy_calendar_events_tomorrow" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCalendarEventsUpcoming} == '16'">
+    <xen:include template="andy_calendar_events_upcoming" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsCountdown} == '16'">
+    <xen:include template="andy_countdown" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnline} == '16'">
+    <xen:include template="andy_membersonline" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostLikes} == '16'">
+    <xen:include template="andy_mostlikes" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMostPosts} == '16'">
+    <xen:include template="andy_mostposts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarDonations} == '16'">
+    <xen:include template="andy_sidebar_donations" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraOne} == '16'">
+    <xen:include template="andy_sidebar_extra_one" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraTwo} == '16'">
+    <xen:include template="andy_sidebar_extra_two" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraThree} == '16'">
+    <xen:include template="andy_sidebar_extra_three" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarExtraFour} == '16'">
+    <xen:include template="andy_sidebar_extra_four" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsSidebarNotices} == '16'">
+    <xen:include template="andy_sidebarnotices" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStatistics} == '16'">
+    <xen:include template="andy_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsTodaysBirthdays} == '16'">
+    <xen:include template="andy_todaysbirthdays" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsForumStatistics} == '16'">
+    <xen:include template="andy_forum_statistics" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsMembersOnlineNow} == '16'">
+    <xen:include template="andy_members_online_now" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewPosts} == '16'">
+    <xen:include template="andy_new_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewProfilePosts} == '16'">
+    <xen:include template="andy_new_profile_posts" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsNewResources} == '16'">
+    <xen:include template="andy_resource_forum_list_sidebar" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsShareThisPage} == '16'">
+    <xen:include template="andy_share_this_page" />
+</xen:if>
+<xen:if is="{$xenOptions.sidebarPositionsStaffOnlineNow} == '16'">
+    <xen:include template="andy_staff_online_now" />
+</xen:if>]]></replace>
+    </modification>
+    <modification template="forum_list" modification_key="SidebarPositions_forum_list_2" description="SidebarPositions_forum_list_2" execution_order="10" enabled="1" action="str_replace">
+      <find><![CDATA[<div class="section">
+			<div class="secondaryContent statsList" id="boardStats">
+				<h3>{xen:phrase forum_statistics}</h3>
+				<div class="pairsJustified">
+					<dl class="discussionCount"><dt>{xen:phrase discussions}:</dt>
+						<dd>{xen:number $boardTotals.discussions}</dd></dl>
+					<dl class="messageCount"><dt>{xen:phrase messages}:</dt>
+						<dd>{xen:number $boardTotals.messages}</dd></dl>
+					<dl class="memberCount"><dt>{xen:phrase members_count}:</dt>
+						<dd>{xen:number $boardTotals.users}</dd></dl>
+					<dl><dt>{xen:phrase latest_member}:</dt>
+						<dd><xen:username user="$boardTotals.latestUser" /></dd></dl>
+					<!-- slot: forum_stats_extra -->
+				</div>
+			</div>
+		</div>]]></find>
+      <replace><![CDATA[<xen:comment>Sidebar Positions</xen:comment>]]></replace>
+    </modification>
+    <modification template="forum_list" modification_key="SidebarPositions_forum_list_3" description="SidebarPositions_forum_list_3" execution_order="10" enabled="1" action="str_replace">
+      <find><![CDATA[<xen:if is="{$threads}">
+			<div class="section threadList">
+				<div class="secondaryContent">
+					<h3><a href="{xen:link find-new/posts}">{xen:phrase new_posts}</a></h3>
+					<xen:include template="sidebar_new_posts" />
+				</div>
+			</div>
+		</xen:if>]]></find>
+      <replace><![CDATA[<xen:comment>Sidebar Positions</xen:comment>]]></replace>
+    </modification>
+    <modification template="forum_list" modification_key="SidebarPositions_forum_list_4" description="SidebarPositions_forum_list_4" execution_order="10" enabled="1" action="str_replace">
+      <find><![CDATA[<xen:if is="{$profilePosts}">
+			<div class="section profilePostList">
+				<div class="secondaryContent">
+					<h3><a href="{xen:link find-new/profile-posts}">{xen:phrase new_profile_posts}</a></h3>
+					<xen:include template="sidebar_profile_post_list" />
+				</div>
+			</div>
+		</xen:if>]]></find>
+      <replace><![CDATA[<xen:comment>Sidebar Positions</xen:comment>]]></replace>
+    </modification>
+    <modification template="resource_forum_list_sidebar" modification_key="SidebarPositions_resource_forum_list_sidebar" description="SidebarPositions_resource_forum_list_sidebar" execution_order="10" enabled="1" action="preg_replace">
+      <find><![CDATA[/^.*$/s]]></find>
+      <replace><![CDATA[<xen:comment>Sidebar Positions</xen:comment>]]></replace>
+    </modification>
+    <modification template="sidebar_online_users" modification_key="SidebarPositions_sidebar_online_users" description="SidebarPositions_sidebar_online_users" execution_order="10" enabled="1" action="preg_replace">
+      <find><![CDATA[/^.*$/s]]></find>
+      <replace><![CDATA[<xen:comment>Sidebar Positions</xen:comment>]]></replace>
+    </modification>
+    <modification template="sidebar_share_page" modification_key="SidebarPositions_sidebar_share_page" description="SidebarPositions_sidebar_share_page" execution_order="10" enabled="1" action="preg_replace">
+      <find><![CDATA[/^.*$/s]]></find>
+      <replace><![CDATA[<xen:comment>Sidebar Positions</xen:comment>]]></replace>
+    </modification>
+  </public_template_modifications>
+  <bb_code_media_sites/>
+  <bb_codes/>
+</addon>

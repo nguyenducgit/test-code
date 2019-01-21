@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon addon_id="Brivium_VisitorsCounter" title="Brivium - Visitors Counter" version_string="1.0.0" version_id="1000000" url="" install_callback_class="Brivium_VisitorsCounter_Installer" install_callback_method="install" uninstall_callback_class="Brivium_VisitorsCounter_Installer" uninstall_callback_method="uninstall">
+  <admin_navigation/>
+  <admin_permissions/>
+  <admin_style_properties/>
+  <admin_templates/>
+  <admin_template_modifications/>
+  <code_events/>
+  <code_event_listeners>
+    <listener event_id="template_hook" execute_order="10" callback_class="Brivium_VisitorsCounter_EventListeners_Listener" callback_method="templateHook" active="1" hint="" description=""/>
+    <listener event_id="widget_framework_ready" execute_order="10" callback_class="Brivium_VisitorsCounter_EventListeners_Listener" callback_method="widgetFrameworkReady" active="1" hint="" description=""/>
+  </code_event_listeners>
+  <cron>
+    <entry entry_id="BRVC_visitorsCounter" cron_class="Brivium_VisitorsCounter_CronEntry_VisitorsCounter" cron_method="runCounterUpdate" active="1"><![CDATA[{"day_type":"dom","dom":["-1"],"hours":["-1"],"minutes":["30"]}]]></entry>
+  </cron>
+  <email_templates/>
+  <email_template_modifications/>
+  <optiongroups/>
+  <permissions>
+    <permission_groups/>
+    <permissions/>
+    <interface_groups/>
+  </permissions>
+  <phrases>
+    <phrase title="BRVC_all_time" version_id="1000000" version_string="1.0.0"><![CDATA[All Days]]></phrase>
+    <phrase title="BRVC_last_month" version_id="1000000" version_string="1.0.0"><![CDATA[Last Month]]></phrase>
+    <phrase title="BRVC_last_week" version_id="1000000" version_string="1.0.0"><![CDATA[Last Week]]></phrase>
+    <phrase title="BRVC_last_year" version_id="1000000" version_string="1.0.0"><![CDATA[Last Year]]></phrase>
+    <phrase title="BRVC_this_month" version_id="1000000" version_string="1.0.0"><![CDATA[This Month]]></phrase>
+    <phrase title="BRVC_this_week" version_id="1000000" version_string="1.0.0"><![CDATA[This Week]]></phrase>
+    <phrase title="BRVC_this_year" version_id="1000000" version_string="1.0.0"><![CDATA[This Year]]></phrase>
+    <phrase title="BRVC_today" version_id="1000000" version_string="1.0.0"><![CDATA[Today]]></phrase>
+    <phrase title="BRVC_visitors_counter" version_id="1000000" version_string="1.0.0"><![CDATA[Visitors Counter]]></phrase>
+    <phrase title="BRVC_yesterday" version_id="1000000" version_string="1.0.0"><![CDATA[Yesterday]]></phrase>
+    <phrase title="cron_entry_BRVC_visitorsCounter" version_id="1000000" version_string="1.0.0"><![CDATA[Update Visitors Counter]]></phrase>
+  </phrases>
+  <route_prefixes/>
+  <style_properties/>
+  <templates>
+    <template title="BRVC_visitors_counter" version_id="1000000" version_string="1.0.0"><![CDATA[<xen:require css="BRVC_visitors_counter.css" />
+<xen:if is="!{$isWidgetRender}">
+<div class="section BriviumVisitorsCounter">
+	<div class="secondaryContent">
+		<h3>{xen:phrase BRVC_visitors_counter}</h3>
+</xen:if>
+		<ul id="BriviumVisitorsCounterBlock">
+			<xen:foreach loop="$visitorsCounter" value="$counter">
+				<li class="visitorCounterItem">
+					<dl class="pairsJustified">
+						<dt>{$counter.title}</dt>
+						<dd>{xen:number {$counter.value}}</dd>
+					</dl>
+				</li>
+			</xen:foreach>
+		</ul>
+<xen:if is="!{$isWidgetRender}">
+	</div>
+</div>
+</xen:if>]]></template>
+    <template title="BRVC_visitors_counter.css" version_id="1000000" version_string="1.0.0"><![CDATA[]]></template>
+  </templates>
+  <public_template_modifications/>
+  <bb_code_media_sites/>
+  <bb_codes/>
+  <brc_actions/>
+</addon>

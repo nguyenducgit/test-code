@@ -1,0 +1,196 @@
+<a href="link liên kết" class="fancybox">
+    <div class="animation"> <span class="icon ring"></span>
+        <div class="cercle one"></div>
+        <div class="cercle two"></div>
+    </div>
+</a>
+<style type="text/css">
+/* CALL BUTTON POPUP */
+
+#AnythingPopup_BoxContainer1 {
+    display: block;
+    width: 580px;
+    max-width: 100%;
+    margin: auto;
+    height: 350px;
+    max-height: 100%;
+    background: #FFFFFF;
+    border: 1px solid #0E9648;
+    padding: 0;
+    /* position: fixed; */
+    z-index: 99999;
+    cursor: default;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#AnythingPopup_BoxContainerHeader1 {
+    height: 30px;
+    background: #0E9648;
+    border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -khtml-border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -khtml-border-top-left-radius: 10px;
+}
+
+#AnythingPopup_BoxContainerHeader1 a {
+    color: #FFFFFF;
+    font-family: Verdana, Arial;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#AnythingPopup_BoxTitle1 {
+    float: left;
+    margin: 5px;
+    color: #FFFFFF;
+    font-family: Verdana, Arial;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+#AnythingPopup_BoxClose1 {
+    float: right;
+    width: 50px;
+    margin: 5px;
+}
+
+#AnythingPopup_BoxContainerBody1 {
+    margin: 15px;
+    overflow: auto;
+    height: 290px;
+}
+
+#AnythingPopup_BoxContainerFooter1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #0E9648;
+    z-index: 999;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.animation {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    z-index: 9999999999;
+    position: fixed;
+    opacity: 0.8;
+    width: 80px;
+    height: 80px;
+    top: 30%;
+    left: 94%;
+    transform: translate(-50%, -70%);
+    border-radius: 50%;
+    background-color: #9BCE3E;
+}
+
+.ring {
+    z-index: 3;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('http://bacsilaptop.com.vn/wp-content/uploads/2016/03/circle-01-1.png') no-repeat center center;
+    -webkit-animation: ring 0.6s infinite;
+    -o-animation: ring 0.6s infinite;
+    animation: ring 0.6s infinite;
+}
+
+@keyframes ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(-20deg);
+    }
+    21% {
+        transform: rotate(0deg);
+    }
+    40% {
+        transform: rotate(-20deg);
+    }
+    41% {
+        transform: rotate(0deg);
+    }
+    60% {
+        transform: rotate(-20deg);
+    }
+    80% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.cercle {
+    z-index: 2;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transform: translate(-12px, -12px);
+    border-radius: 50%;
+    border: 2px solid #92EC76;
+    background-color: transparent;
+    -webkit-animation: wave 1.4s infinite linear;
+    -o-animation: wave 1.4s infinite linear;
+    animation: wave 1.4s infinite linear;
+}
+
+.two {
+    animation-delay: 0.35s;
+    opacity: 0;
+}
+
+.three {
+    animation-delay: 0.7s;
+    opacity: 0;
+}
+
+@keyframes wave {
+    0% {
+        width: 80px;
+        height: 80px;
+        background-color: #92EC76;
+        z-index: 1;
+        transform: translate(-2px, -2px);
+        opacity: 1;
+        border-width: 2px;
+    }
+    100% {
+        width: 150px;
+        height: 150px;
+        transform: translate(-35px, -35px);
+        opacity: 0.2;
+        border-width: 2px;
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* ================================================== */
+</style>

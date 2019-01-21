@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+</head>
+
+<body style="text-align: center;">
+    <div class="content_top">
+        <div style="height: 275px;width: 300px;margin: 30px auto;" class="grow">
+            <a href="#" class="effect">
+				<img src="http://bontammassage.net/uploads/san-pham/thumb/js-8090.jpg" alt="Bồn tắm massage Govern JS-8090" style="max-height:260px; max-width:260px">
+            </a>
+        </div>
+    </div>
+</body>
+<style type="text/css">
+.grow a.effect {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 102%;
+    display: block;
+}
+
+#products .items .items_content img {
+    padding: 5px;
+}
+
+.grow a.effect:hover:before,
+.grow a.effect:hover:after {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transition: all .5s ease-out 0s;
+    -moz-transition: all .5s ease-out 0s;
+    -o-transition: all .5s ease-out 0s;
+    transition: all .5s ease-out 0s;
+}
+
+.grow a.effect:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    bottom: 10px;
+    right: 0;
+    z-index: 9;
+    border-top: 2px solid #00bcff;
+    border-bottom: 2px solid #00bcff;
+    transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+}
+
+.grow a.effect:after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    bottom: 10px;
+    right: 0;
+    z-index: 9;
+    border-left: 2px solid #00bcff;
+    border-right: 2px solid #00bcff;
+    transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+}
+</style>
+
+</html>

@@ -1,0 +1,377 @@
+
+.detailslider{float:left; width:480px; height:485px; position:relative; margin-bottom:40px}
+
+.thumbleft{float:left; width:67px; overflow:hidden}
+.thumbleft li{display:block; position:relative; margin-bottom:16px; cursor:pointer}
+.thumbleft li img{width:65px; height:65px}
+.thumbleft li a{display:block; overflow:hidden; border:1px solid #b7b7b7;width:65px; height:65px;}
+.thumbleft li a:hover{border:1px solid #ed1c24}
+.thumbleft li a.actslide{border:1px solid #252525;}
+.icon-video{background-position:-211px -63px; width:25px; z-index: 999; height:25px; position:absolute; top:0; left:0; right:0; bottom:0; display:block; margin:auto}
+.icon-zoom{background-position:-211px -30px; width:18px; height:18px;}
+.clickzoom{position:absolute; top:10px; right:10px; z-index:99; font-size:13px;  color:#a1a1a1;}
+
+.showimgleft{float:right; width:390px; height:397px; position:relative; text-align:center; position:absolute; top:0; right:0; border: 1px solid #cecece;}
+.showimgleft img{display:block; max-width:390px; max-height:390px; margin:auto}
+#idimg1{display:block}
+#idimg2, #idimg3, #idimg4, #idimg5, #idimg6, #idimg7, #idimg8, #idimg9, #idimg10{display:none}
+
+.thumbbottom{display:block; margin-left:74px; overflow:hidden; clear:both}
+.thumbbottom li{float:left; position:relative; margin:6px 0 0 14px;cursor:pointer}
+.thumbbottom li img{width:65px; height:65px}
+.thumbbottom li a{display:block; overflow:hidden; border:1px solid #b7b7b7;width:65px; height:65px;}
+.thumbbottom li a:hover{border:1px solid #ed1c24}
+.thumbbottom li a.actslide{border:1px solid #252525;}
+
+.rightdetail{float:right; width:430px; position:relative; overflow:hidden}
+.rightdetail h1{display:block; line-height:1.3em;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:16px; color:#ed1c24; text-transform:uppercase}
+.rightdetail .line1{float:left; width:30px; height:1px; background:#ed1c24; clear:both; margin:4px 0 20px 0}
+.rightdetail strong{text-transform:uppercase; display:block; margin-bottom:25px;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;; font-size:30px; color:#252525; clear:both; font-weight:300; }
+.rightdetail select{float:left; padding:6px 8px; border:1px solid #b7b7b7; width:265px; margin:0 20px 10px 0}
+.rightdetail .tableclick{display:block; font-size:13px; color:#a1a1a1; padding-top:8px;}
+.rightdetail .addcart{float:left; width: 265px; padding:10px 45px; text-align: center; cursor:pointer; margin:10px 20px 10px 0; border:0; background:#ed1c24; color:white;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:13px; text-transform:uppercase}
+/*.rightdetail .addcart:hover{background:#ff4f57}*/
+.rightdetail .savelike{float:left; width: 265px; padding:10px 45px; text-align: center; cursor:pointer; border:0; background:#252525; color:white;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:13px; text-transform:uppercase}
+/*.rightdetail .savelike:hover{background:#5c5c5c}*/
+.rightdetail .shipclick{display:inline;font-size:13px;color:black;padding-top:8px;margin-top:35px}
+.rightdetail .addcart span, .rightdetail .savelike span{padding-top:2px; margin-left:3px; float:left}
+
+#product_detail .listshare{display:block; clear:both; margin-top:30px; overflow:hidden}
+#product_detail .listshare span{float:left; font-size:14px; color:#252525; margin-top:8px}
+#product_detail .listshare a{float:left; margin-left:20px}
+.icon-fb:hover{background-position:0 -90px;}
+.icon-tw{background-position:-120px -60px;}
+.icon-tw:hover{background-position:-120px -90px;}
+.icon-gg{background-position:-150px -60px;}
+.icon-gg:hover{background-position:-150px -90px;}
+.icon-em{background-position:-180px -60px;}
+.icon-em:hover{background-position:-180px -90px;}
+
+#productdetail .tabs{display:block; width:100%; background:none; position:relative; top:12px; height:46px;border-bottom: 1px solid #b7b7b7;}
+#productdetail .tabs li{float:left; position:relative; list-style:none; margin-right:6px;border:1px solid #b7b7b7; border-bottom:0}
+#productdetail .tabs li:first-child{margin-left:80px;}
+
+#productdetail .tabs li a{display:block; padding:13px 63px 12px; text-align:center; position:relative; background:#fff; }
+#productdetail .tabs li a h3{color:#252525; font-weight:600; font-size:16px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; display:block; text-align:center}
+#productdetail .tabs li a.actived{background:#fff; height:21px;}
+#productdetail .tabs li a.actived h3{color:#ed1c24;}
+
+.showtabs{display:block; padding:10px 10px 0; overflow:hidden; margin:20px 0 0; clear:both; position:relative;}
+#infoproduct{display:block}
+#ratingcomment{display:none}
+.description{float:left; width:99%; overflow:hidden; line-height: 1.7; font-size: 14px;}
+.description ul{display:table; *float:none; width:100%; overflow:hidden; font-size:14px; color:#252525}
+.description ul li{display:table-cell; padding:10px 20px 10px 0; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;}
+.description ul li strong{font-size:14px; text-transform:uppercase; font-weight:700; font-family:ProximaNova-Regular}
+.description p, .description ul li p{display:block; margin-bottom:40px}
+.description ul li.col{width:20%}
+
+.combostyle{float:right; width:48%; overflow:hidden; color:#252525;}
+.combostyle h4{display:block; text-transform:uppercase;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:14px; font-weight:700; margin-top:10px}
+.listcombo{display:block; overflow:hidden; margin:10px 0;}
+.listcombo a{float:left; width:65px; height:65px; border:1px solid #b7b7b7}
+.listcombo a img{width:100%; height:100%}
+.listcombo span{font-size:18px; float:left; padding:25px 8px 0; color:#b7b7b7; margin:0 6px}
+
+.combostyle label{display:block; font-size:13px; margin-top:10px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;}
+.combostyle label strong{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;}
+.combostyle button{display:block; border:0; padding:7px 22px 6px 21px; margin-top:20px; text-transform:uppercase;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:14px; color:white; background:#ed1c24; font-weight:600; cursor:pointer}
+/*.combostyle button:hover{background:#ff4f57; cursor:pointer}*/
+
+.favoriteproduct{position:relative; margin-top:70px; border-top:1px dotted #252525}
+.favoriteproduct h3{position:absolute; left:0; right:0; top:-30px; text-align:center; padding:12px; background:white; display:block; margin:auto; font-size:26px; color:#252525; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;; text-transform:uppercase; *left:26%}
+.favoriteproduct .viewmorestyle{position:absolute; right:0; top:-15px; background:white; padding:6px 12px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;; font-size:12px; color:#a1a1a1; margin:0; width:72px;height:auto;}
+.favoriteproduct .viewmorestyle span{font-size:22px; margin:-6px 6px 0 0; float:right; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;}
+
+.favoriteproduct .item a{display:block; overflow:hidden;}
+.favoriteproduct .item a span{display:block; margin:0 auto; overflow:hidden; width:25px; height:1px; background:#252525}
+.favoriteproduct .item a strong{display:block; padding-top:12px; text-align:center;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:14px; color:#ed1c24}
+.favoriteproduct .item a label{display:block; padding-top:12px;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size:14px; color:#252525; text-align:center;}
+.wrap_rating{float:left; overflow:hidden; width:48%}
+.rating{display:block; overflow:hidden;}
+.rating figure{display:block; padding:12px 0; font-size:12px; color:#a1a1a1}
+.rating figure strong{float:left; margin-right:12px;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:14px; color:#252525; text-transform:uppercase}
+.rating ul{display:block; margin:8px 0 0 80px; overflow:hidden}
+.rating li{float:left; position:relative; width:33%}
+.rating li label{display:block; font-size:14px; color:#252525; margin-bottom:12px}
+
+.idea{display:block; overflow:hidden;}
+.idea figure{display:block; padding:12px 0; font-size:12px; color:#a1a1a1}
+.idea figure strong{float:left; margin-right:12px;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:14px; color:#252525; text-transform:uppercase}
+.idea ul{display:block; margin:8px 0 0 80px; overflow:hidden}
+.idea li{float:left; position:relative; width:33%}
+.idea li label{display:block; font-size:14px; color:#252525; margin-bottom:12px}
+.idea .titleidea{display:block; padding:8px 0; font-size:14px; color:#252525}
+.idea .textarea{display:block; padding:8px 0; font-size:14px; color:#252525; border:1px solid #b7b7b7; width:95%; padding:10px; margin-bottom:10px}
+.idea .inputidea{float:left; padding:6px 8px; border:1ppx solid #b7b7b7; width:43%; margin-right:12px; margin-bottom:12px;}
+.idea .btnsendidea{float:left; padding:10px 0; width:190px; margin-right:20px; background:#252525; color:white; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:14px; text-transform:uppercase; font-weight:700; border:0; cursor:pointer}
+/*.idea .btnsendidea:hover{cursor:pointer; background:#5c5c5c}*/
+.idea > p{font-size:12px; color:#a1a1a1; width:180px; float:left; padding:5px 0 0}
+
+.wrap_comment{float:right; width:48%; overflow:hidden}
+.wrap_comment figure{display:block; padding:12px 0; font-size:12px; color:#a1a1a1; overflow:hidden}
+.wrap_comment figure strong{margin-right:12px;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold;  font-size:14px; color:#252525; text-transform:uppercase}
+.wrap_comment figure .sortcomment{float:right; padding:4px 8px; border:1px solid #b7b7b7; color:#252525; font-size:14px; margin-top:-6px;}
+
+.comment{display:block; padding:10px 0; overflow:hidden; border-top:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6;}
+.comment label{display:block; padding:8px 0 3px; text-transform:uppercase; font-size:13px}
+.comment label strong{color:#ed1c24;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; }
+.comment label span{color:#a1a1a1; float:right}
+
+.scrollcomm{display:block;max-height:410px; overflow-x:hidden; overflow-y:auto; clear:both}
+.scrollcomm::-webkit-scrollbar{width:4px;} 
+.scrollcomm::-webkit-scrollbar-track{background:#fff;}
+.scrollcomm::-webkit-scrollbar-thumb{background:#666;}
+.scrollcomm::-webkit-scrollbar-thumb:window-inactive{background:#111;}
+
+.contcomment{display:block; overflow:hidden; margin:0 16px 8px 0; font-size:13px; color:#252525; line-height:18px; border-bottom:1px solid #e6e6e6; padding-bottom:10px}
+.contcomment figure{display:block; padding:8px 0; font-size:12px; color:#252525;}
+.contcomment figure button{font-size: 10px; background:white; padding:2px 5px; text-transform:uppercase;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold;  margin:0; border:0; text-decoration:underline}
+.contcomment figure button:hover{color:#ed1c24; cursor:pointer}
+.contcomment figure strong{color:red; font-size:10px}
+.answer{border:1px solid #b7b7b7; padding:12px; display:block; width:94%; margin-top:2px; font-size:13px; color:#252525; height:40px}
+
+.flstar{float:left; width:33%; overflow:hidden; margin-bottom:20px}
+.flstar p{display:block; font-size:12px; color:252525; margin-bottom:8px}
+
+.star{width:80px;height:16px;margin:0!important;padding:0;list-style:none;position:relative;
+background: url(../../../../images/store/vascara/desktop/star-matrix.png) no-repeat 0 0;}
+
+.nostar{background-position:0 0}
+.onestar{background-position:0 -16px}
+.twostar{background-position:0 -32px}
+.threestar{background-position:0 -48px}
+.fourstar{background-position:0 -64px}
+.fivestar{background-position:0 -80px}
+
+.halfstar{background-position:0 -96px}
+.onehalfstar{background-position:0 -112px}
+.towhalfstar{background-position:0 -128px}
+.threehalfstar{background-position:0 -144px}
+.fourhalfstar{background-position:0 -160px}
+
+ul.star li {width:auto;cursor: pointer;float:left;text-indent:-999em;}
+
+ul.star li a {position:absolute;left:0;top:0;width:16px;height:16px;text-decoration:none;z-index: 200;}
+ul.star li.one a {left:0}
+ul.star li.two a {left:16px;}
+ul.star li.three a {left:32px;}
+ul.star li.four a {left:48px;}
+ul.star li.five a {left:64px;}
+ul.star li a:hover {z-index:2;width:80px;height:16px;overflow:hidden;left:0;background:url(../../../../images/store/vascara/desktop/star-matrix.png) no-repeat 0 0}
+ul.star li.one a:hover {background-position:0 -16px;}
+ul.star li.two a:hover {background-position:0 -32px;}
+ul.star li.three a:hover {background-position:0 -48px}
+ul.star li.four a:hover {background-position:0 -64px}
+ul.star li.five a:hover {background-position:0 -80px}
+
+ul.star li a.active {z-index:1;width:80px;height:16px;overflow:hidden;left:0;background:url(../../../../images/store/vascara/desktop/star-matrix.png) no-repeat 0 0}
+ul.star li.one a.active {background-position:0 -16px;}
+ul.star li.two a.active {background-position:0 -32px;}
+ul.star li.three a.active {background-position:0 -48px}
+ul.star li.four a.active {background-position:0 -64px}
+ul.star li.five a.active {background-position:0 -80px}
+
+.smallstar{width:80px;height:12px;margin:0!important;padding:0;list-style:none;position:relative;
+background: url(../../../../images/store/vascara/desktop/star-matrix.png) no-repeat 0 0; background-size:75%}
+
+.smallnostar{background-position:0 0}
+.smallonestar{background-position:0 -12px}
+.smalltwostar{background-position:0 -24px}
+.smallthreestar{background-position:0 -36px}
+.smallfourstar{background-position:0 -48px}
+.smallfivestar{background-position:0 -60px}
+
+.smallhalfstar{background-position:0 -72px}
+.smallonehalfstar{background-position:0 -84px}
+.smalltowhalfstar{background-position:0 -95px}
+.smallthreehalfstar{background-position:0 -108px}
+.smallfourhalfstar{background-position:0 -120px}
+
+ul.smallstar li {width:auto;cursor: pointer;float:left;text-indent:-999em;}
+
+ul.smallstar li a {position:absolute;left:0;top:0;width:12px;height:12px;text-decoration:none;z-index: 200;}
+ul.smallstar li.one a {left:0}
+ul.smallstar li.two a {left:12px;}
+ul.smallstar li.three a {left:24px;}
+ul.smallstar li.four a {left:36px;}
+ul.smallstar li.five a {left:48px;}
+ul.smallstar li a:hover {z-index:2;width:80px;height:12px;overflow:hidden;left:0;background:url(../../../../images/store/vascara/desktop/star-matrix.png) no-repeat 0 0; background-size:75%}
+ul.smallstar li.one a:hover {background-position:0 -12px;}
+ul.smallstar li.two a:hover {background-position:0 -24px;}
+ul.smallstar li.three a:hover {background-position:0 -36px}
+ul.smallstar li.four a:hover {background-position:0 -48px}
+ul.smallstar li.five a:hover {background-position:0 -60px}
+
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-carousel .owl-item:hover{
+	/*border: 1px solid #dfdfdf;*/
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px 5px -44px 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.51;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
+
+#owl-demo .item{
+	margin: 3px;
+}
+#owl-demo .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+#owl-example .item img{
+	width: auto;
+	margin: 0 auto;
+	display: block;
+}
+#owl-example .item h3{
+	font-size: 28px;
+	font-weight: 300;
+	margin: 25px 0 0;
+}
+#owl-example .item h4{
+	margin: 5px 0 0;
+	font-size: 18px;
+}
+#owl-latest, #owl-favorite{margin:40px 0 30px}
+.owl-pagination{display:none}
+
+.owl-prev{background:none !important; color:#C00 !important; font-size:72px !important; position:absolute; left:0; bottom:50%}
+.owl-next{background:none !important; color:#C00 !important; font-size:72px !important; position:absolute; right:0; bottom:50%}
+
+.error {
+	border: solid 1px #ed1c24 !important;
+}

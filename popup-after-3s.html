@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<style>
+#popup {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+	display:none;
+	z-index: 99999999;
+}
+div#demo {
+    margin-top:10%;
+}
+
+</style>
+<div id="popup">
+<div id="demo">
+<a href="javascript:void(0);" onclick="$('#popup').fadeOut(0);" class="close_popup">Close</a>
+<a href=""><img src="http://hoangtungland.w3w.vn/uploads/images/popup-sungroup-luongyen.jpg"/></a>
+</div>
+</div>
+
+<script>
+$(document).ready(function(){
+        $("#popup").fadeIn(1000);
+});
+</script>
+
+</body>
+</html>
+
+

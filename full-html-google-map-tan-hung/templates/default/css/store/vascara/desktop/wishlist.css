@@ -1,0 +1,59 @@
+.wishlist{display:block;position:relative; overflow:hidden}
+.wishlist li{float:left; width:228px; height:340px; margin:7px;overflow:hidden; position:relative; border:1px solid #b7b7b7; border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px;}
+.wishlist li:hover{border:1px solid #ed1c24}
+.wishlist li a.productimagewishlist{
+	width:210px;
+	height:180px;
+	position: relative;
+}
+.wishlist li a{display:block; overflow:hidden; margin:10px;}
+.wishlist li a.productimagewishlist img{
+	display:block;
+	max-width:210px;
+	max-height:180px;
+	margin:auto;
+	position: absolute;
+	top:0;
+	right: 0;
+	bottom:0;
+	left: 0;
+}
+.wishlist li a span{display:block; margin:0 auto 10px; width:25px; height:1px; background:#252525;}
+.wishlist li a strong{color:#ed1c24; display:block;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:14px; padding-top:12px; text-align:center;}
+.wishlist li a label{color:#252525; display:block; font-size:14px; padding-top:12px; text-align:center}
+
+.wishlist li .buy{background:#ed1c24;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; font-size:14px; color:white; text-align:center; text-transform:uppercase; padding:10px 0; position:absolute; left:0; right:0; bottom:10px; z-index:99; width:146px; margin:auto; display:none; border:0; *left:35%; cursor:pointer}
+.wishlist li:hover .buy{display:block}
+.wishlist li .delete {
+	position: absolute;
+	top: 3px;
+	right: -5px;
+	z-index: 999;
+	width: 34px;
+	height: 26px;
+	text-align: center;
+	color: #252525;
+	font-size: 16px;
+	margin: 0;
+}
+.emptywishlist{
+	text-align: center;
+	padding: 30px 0px;
+	font-size: 16px;
+	color: #1D2121;
+}
+.emptywishlist a{
+	color: #ed1c24
+}
+.wishlist li a .loadingspinner{
+	margin-left: 5px;
+	margin-right: -20px;
+}
+
+.wishlist li a.buy span {
+	display: inline; 
+	margin: 0; 
+	width: auto; 
+	height: auto; 
+	background: none; 
+}

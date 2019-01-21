@@ -1,0 +1,41 @@
+<div id="popupdk-home">
+    <div class="popupdk-home-main">
+        <a href="javascript:void(0);" onclick="$('#popupdk-home').fadeOut(0);" class="close_popup"><img src="{$URL_IMAGES}/close.png"></a>
+        <a href="{$arrListAdver[0].href}"><img src="{$URL_UPLOADS}/{$arrListAdver[0].image}" alt="{$arrListAdver[0].title}"></a>
+    </div>
+</div>
+{literal}
+<script>
+$(document).ready(function() {
+    $("#popupdk-home").fadeIn(0);
+});
+</script>
+<style type="text/css">
+    #popupdk-home {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display:none;
+    z-index: 9999999999999999;
+}
+.popupdk-home-main {
+    background: #fff;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 14%;
+    position: relative;
+}
+
+#popupdk-home .close_popup {
+    position: absolute;
+    right: -12px;
+    top: -10px;
+}
+</style>
+{/literal}

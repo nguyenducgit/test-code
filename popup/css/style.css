@@ -1,0 +1,139 @@
+#popupdk-home {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+	display:none;
+	z-index: 99999999;
+}
+.popupdk-home-main {
+    background: #fff;
+    min-height: 175px;
+    max-width: 700px;
+    width: 100%;
+    z-index: 734626274;
+    height: 100%;
+    max-height: 580px;
+    margin: 0 auto;
+    margin-top: 4%;
+    position: relative;
+}
+#popupdk-home .close_popup {
+    position: absolute;
+    right: -12px;
+    top: -10px;
+}
+#popupdk-home .popup-top{
+	height: 15px;
+	background: url(../images/bg-top-popup.png);
+}
+#popupdk-home .text{
+	margin-bottom: 125px;
+}
+#popupdk-home .text h3 {
+    color: #008000;
+    font-size: 30px;
+}
+#popupdk-home .text p {
+    font-size: 20px;
+}
+#popupdk-home .popup-form .left {
+    width: 47%;
+    float: left;
+}
+#popupdk-home .popup-form .right {
+    width: 47%;
+    float: right;
+    background-color: #dadada;
+    padding: 20px;
+    position: relative;
+}
+#popupdk-home .popup-form .right .muiten {
+    position: absolute;
+    top: -37px;
+    left: -37px;
+}
+#popupdk-home .popup-form .right .muiten img {
+    width: 50px;
+}
+#popupdk-home .popup-form .right input {
+    background-color: #fff;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding-left: 10px;
+    overflow: hidden;
+    outline: none;
+    margin: 0 0 15px;
+    vertical-align: middle;
+    height: 46px;
+    max-width: 300px;
+}
+#popupdk-home .popup-form .right button {
+    background: #484848;
+    border: 1px solid #484848;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    padding: 12px 6px;
+    line-height: 28px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 0;
+    height: 54px;
+    text-transform: uppercase;
+}
+
+/*form dky 2 start*/
+.box-dk-bottom {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    width: 300px;
+    background: #002f39;
+    text-align: center;
+}
+#box-dk-bottom-click {
+    position: relative;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: tahoma;
+    padding: 10px 14px;
+    font-weight: bold;
+}
+#box-dk-bottom-click img {
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+.box-dk-bottom .des {
+    color: white;
+    font-family: tahoma;
+    text-align: left;
+    padding: 8px;
+}
+.box-dk-bottom input {
+    width: 250px;
+    height: 33px;
+    margin-top: 10px;
+    padding-left: 10px
+    
+}
+#box-dk-bottom-toggle .btn {
+    background: #fe370e;
+    border: none;
+    padding: 10px;
+    width: 288px;
+    border-radius: 4px;
+    margin: 10px auto;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 32px;
+}
+/*form dky 2 end*/

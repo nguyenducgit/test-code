@@ -1,0 +1,143 @@
+
+/*Font ProximaNova*/
+@font-face {
+	font-family: 'ProximaNova';
+	src: url(../../../../fonts/store/vascara/desktop/ProximaNova.eot) format('eot'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova.otf)  format('opentype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova.woff) format('woff'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova.ttf)  format('truetype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova.svg#ProximaNova) format('svg');
+}
+@font-face {
+	font-family: 'ProximaNova-Bold';
+	src: url(../../../../fonts/store/vascara/desktop/ProximaNova-Bold.eot) format('eot'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Bold.otf)  format('opentype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Bold.woff) format('woff'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Bold.ttf)  format('truetype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Bold.svg#ProximaNova-Bold) format('svg');
+}
+@font-face {
+	font-family: 'ProximaNova-BoldIt';
+	src: url(../../../../fonts/store/vascara/desktop/ProximaNova-BoldIt.eot?) format('eot'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-BoldIt.otf)  format('opentype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-BoldIt.woff) format('woff'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-BoldIt.ttf)  format('truetype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-BoldIt.svg#ProximaNova-BoldIt) format('svg');
+}
+@font-face {
+	font-family: 'ProximaNova-Extrabld';
+	src: url(../../../../fonts/store/vascara/desktop/ProximaNova-Extrabld.eot?) format('eot'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Extrabld.otf)  format('opentype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Extrabld.woff) format('woff'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Extrabld.ttf)  format('truetype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Extrabld.svg#ProximaNova-Extrabld) format('svg');
+}
+@font-face {
+	font-family: 'ProximaNova-ExtrabldIt';
+	src: url(../../../../fonts/store/vascara/desktop/ProximaNova-ExtrabldIt.eot?) format('eot'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-ExtrabldIt.otf)  format('opentype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-ExtrabldIt.woff) format('woff'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-ExtrabldIt.ttf)  format('truetype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-ExtrabldIt.svg#ProximaNova-ExtrabldIt) format('svg');
+}
+@font-face {
+	font-family: 'ProximaNova-Light';
+	src: url(../../../../fonts/store/vascara/desktop/ProximaNova-Light.eot?) format('eot'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Light.otf)  format('opentype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Light.woff) format('woff'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Light.ttf)  format('truetype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Light.svg#ProximaNova-Light) format('svg');
+}
+@font-face {
+	font-family: 'ProximaNova-LightIt';
+	src: url(../../../../fonts/store/vascara/desktop/ProximaNova-LightIt.eot?) format('eot'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-LightIt.otf)  format('opentype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-LightIt.woff) format('woff'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-LightIt.ttf)  format('truetype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-LightIt.svg#ProximaNova-LightIt) format('svg');
+}
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src: url(../../../../fonts/store/vascara/desktop/ProximaNova-Regular.eot?) format('eot'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Regular.otf)  format('opentype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Regular.woff) format('woff'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Regular.ttf)  format('truetype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Regular.svg#ProximaNova-Regular) format('svg');
+}
+@font-face {
+	font-family: 'ProximaNova-RegularIt';
+	src: url(../../../../fonts/store/vascara/desktop/ProximaNova-RegularIt.eot?) format('eot'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-RegularIt.otf)  format('opentype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-RegularIt.woff) format('woff'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-RegularIt.ttf)  format('truetype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-RegularIt.svg#ProximaNova-RegularIt) format('svg');
+}
+@font-face {
+	font-family: 'ProximaNova-Semibold';
+	src: url(../../../../fonts/store/vascara/desktop/ProximaNova-Semibold.eot?) format('eot'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Semibold.otf)  format('opentype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Semibold.woff) format('woff'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Semibold.ttf)  format('truetype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-Semibold.svg#ProximaNova-Semibold) format('svg');
+}
+@font-face {
+	font-family: 'ProximaNova-SemiboldIt';
+	src: url(../../../../fonts/store/vascara/desktop/ProximaNova-SemiboldIt.eot?) format('eot'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-SemiboldIt.otf)  format('opentype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-SemiboldIt.woff) format('woff'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-SemiboldIt.ttf)  format('truetype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-SemiboldIt.svg#ProximaNova-SemiboldIt) format('svg');
+}
+@font-face {
+	font-family: 'ProximaNovaT-Thin';
+	src: url(../../../../fonts/store/vascara/desktop/ProximaNovaT-Thin.eot?) format('eot'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNovaT-Thin.otf)  format('opentype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNovaT-Thin.woff) format('woff'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNovaT-Thin.ttf)  format('truetype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNovaT-Thin.svg#ProximaNovaT-Thin) format('svg');
+}
+@font-face {
+	font-family: 'ProximaNova-ThinIt';
+	src: url(../../../../fonts/store/vascara/desktop/ProximaNova-ThinIt.eot?) format('eot'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-ThinIt.otf)  format('opentype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-ThinIt.woff) format('woff'), 
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-ThinIt.ttf)  format('truetype'),
+	     url(../../../../fonts/store/vascara/desktop/ProximaNova-ThinIt.svg#ProximaNova-ThinIt) format('svg');
+}
+
+
+
+/*======================*/
+/*Font Georgia*/
+@font-face {
+  font-family: 'Georgia';
+  src: url(../../../../fonts/store/vascara/desktop/Georgia.eot?#iefix) format('embedded-opentype'),  url(../../../../fonts/store/vascara/desktop/Georgia.woff) format('woff'), url(../../../../fonts/store/vascara/desktop/Georgia.ttf)  format('truetype'), url(../../../../fonts/store/vascara/desktop/Georgia.svg#Georgia) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Georgia-Bold';
+  src: url(../../../../fonts/store/vascara/desktop/Georgia-Bold.eot?#iefix) format('embedded-opentype'),  url(../../../../fonts/store/vascara/desktop/Georgia-Bold.woff) format('woff'), url(../../../../fonts/store/vascara/desktop/Georgia-Bold.ttf)  format('truetype'), url(../../../../fonts/store/vascara/desktop/Georgia-Bold.svg#Georgia-Bold) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Georgia-BoldItalic';
+  src: url(../../../../fonts/store/vascara/desktop/Georgia-BoldItalic.eot?#iefix) format('embedded-opentype'),  url(../../../../fonts/store/vascara/desktop/Georgia-BoldItalic.woff) format('woff'), url(../../../../fonts/store/vascara/desktop/Georgia-BoldItalic.ttf)  format('truetype'), url(../../../../fonts/store/vascara/desktop/Georgia-BoldItalic.svg#Georgia-BoldItalic) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Georgia-Italic';
+  src: url(../../../../fonts/store/vascara/desktop/Georgia-Italic.eot?#iefix) format('embedded-opentype'),  url(../../../../fonts/store/vascara/desktop/Georgia-Italic.woff) format('woff'), url(../../../../fonts/store/vascara/desktop/Georgia-Italic.ttf)  format('truetype'), url(../../../../fonts/store/vascara/desktop/Georgia-Italic.svg#Georgia-Italic) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*End Font Georgia*/
+

@@ -1,0 +1,5 @@
+$(window).scroll(function(e) {
+    var nangluccounter = 0;
+    if ($("#nangluccounter").length > 0) { var before_pintotop2 = $("#nangluccounter").offset().top - 650; if ($(this).scrollTop() >= before_pintotop2 && nangluccounter == 0) { $('.count').each(function() { $(this).prop('Counter', 0).animate({ Counter: $(this).text() }, { duration: 2000, easing: 'swing', step: function(now) { $(this).text(Math.ceil(now)); } }); });
+            nangluccounter = 1; } }
+});
